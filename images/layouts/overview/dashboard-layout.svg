@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="865" viewBox="0 0 1440 865">
+  <defs>
+    <path id="dashboard-layout-a" d="M27.2473145,16.5558875 L27.2473145,23.5815027 L40.7095837,34.1199255 C39.2549963,34.6082812 37.9387415,35.3816858 36.844657,36.4128918 L36.844657,36.4128918 L25.1513672,27.2473145 L13.4559814,36.4107959 C12.3639929,35.3816858 11.047738,34.6082812 9.59105469,34.1199255 L9.59105469,34.1199255 L23.0554199,23.5815027 L23.0554199,16.5558875 C23.7324109,16.69422 24.4345532,16.7675781 25.1513672,16.7675781 C25.8681812,16.7675781 26.5703235,16.69422 27.2473145,16.5558875 L27.2473145,16.5558875 Z M25.1513672,0 C28.6222559,0 31.439209,2.81485718 31.439209,6.2878418 C31.439209,9.76082642 28.6222559,12.5756836 25.1513672,12.5756836 C21.6804785,12.5756836 18.8635254,9.76082642 18.8635254,6.2878418 C18.8635254,2.81485718 21.6804785,0 25.1513672,0 Z"/>
+    <rect id="dashboard-layout-c" width="1199" height="40" x="241" y="64"/>
+    <filter id="dashboard-layout-d" width="100.1%" height="102.5%" x="0%" y="-1.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+    <rect id="dashboard-layout-f" width="1199" height="48" x="241" y="104"/>
+    <filter id="dashboard-layout-e" width="106.3%" height="256.2%" x="-3.1%" y="-59.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="9.5"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+      <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="11"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <rect id="dashboard-layout-h" width="108" height="40" x="0" y="0"/>
+    <filter id="dashboard-layout-g" width="103.7%" height="110%" x="-1.9%" y="-5%" filterUnits="objectBoundingBox">
+      <feOffset dy="-4" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.0901960784   0 0 0 0 0.462745098   0 0 0 0 0.749019608  0 0 0 1 0"/>
+    </filter>
+    <rect id="dashboard-layout-j" width="1200" height="64" x="0" y="0"/>
+    <filter id="dashboard-layout-i" width="100.3%" height="106.2%" x="-.2%" y="-1.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="dashboard-layout-l" width="31" height="64" x="0" y="0"/>
+    <filter id="dashboard-layout-k" width="103.2%" height="101.6%" x="-1.6%" y="-.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+    <rect id="dashboard-layout-n" width="65" height="64" x="0" y="0"/>
+    <filter id="dashboard-layout-m" width="101.5%" height="101.6%" x="-.8%" y="-.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+    <rect id="dashboard-layout-p" width="65" height="64" x="0" y="0"/>
+    <filter id="dashboard-layout-o" width="101.5%" height="101.6%" x="-.8%" y="-.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+    <rect id="dashboard-layout-r" width="65" height="64" x="0" y="0"/>
+    <filter id="dashboard-layout-q" width="101.5%" height="101.6%" x="-.8%" y="-.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+    <rect id="dashboard-layout-t" width="107" height="64" x="0" y="0"/>
+    <filter id="dashboard-layout-s" width="100.9%" height="101.6%" x="-.5%" y="-.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+    <rect id="dashboard-layout-v" width="31" height="64" x="0" y="0"/>
+    <filter id="dashboard-layout-u" width="103.2%" height="101.6%" x="-1.6%" y="-.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+    <rect id="dashboard-layout-x" width="266" height="147" x="271" y="182"/>
+    <filter id="dashboard-layout-w" width="101.5%" height="102.7%" x="-.8%" y="-.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="dashboard-layout-z" width="266" height="350" x="271" y="343"/>
+    <filter id="dashboard-layout-y" width="101.5%" height="101.1%" x="-.8%" y="-.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="dashboard-layout-B" width="558" height="242" x="561" y="182"/>
+    <filter id="dashboard-layout-A" width="100.7%" height="101.7%" x="-.4%" y="-.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="dashboard-layout-D" width="266" height="251" x="561" y="442"/>
+    <filter id="dashboard-layout-C" width="101.5%" height="101.6%" x="-.8%" y="-.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="dashboard-layout-F" width="266" height="398" x="853" y="442"/>
+    <filter id="dashboard-layout-E" width="101.5%" height="101%" x="-.8%" y="-.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="dashboard-layout-H" width="266" height="305" x="1144" y="182"/>
+    <filter id="dashboard-layout-G" width="101.5%" height="101.3%" x="-.8%" y="-.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="dashboard-layout-J" width="266" height="172" x="1144" y="504"/>
+    <filter id="dashboard-layout-I" width="101.5%" height="102.3%" x="-.8%" y="-.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="dashboard-layout-L" width="266" height="147" x="1144" y="693"/>
+    <filter id="dashboard-layout-K" width="101.5%" height="102.7%" x="-.8%" y="-.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="dashboard-layout-N" width="558" height="133" x="271" y="707"/>
+    <filter id="dashboard-layout-M" width="100.7%" height="103%" x="-.4%" y="-.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="1440" height="865" fill="#F2F3F4"/>
+    <rect width="240" height="865" fill="#1776BF"/>
+    <rect width="240" height="152" fill="#1776BF"/>
+    <path fill="#FFF" fill-rule="nonzero" d="M10.3185067 13.3797297C9.74933333 13.6893259 9.09511111 13.8417075 8.35640889 13.8417075 7.71072 13.8417075 7.10570667 13.7123537 6.54478222 13.4505189 5.98215111 13.1889684 5.49262222 12.8242191 5.07818667 12.3545654 4.66346667 11.885196 4.33550222 11.3319598 4.09799111 10.6951412 3.85848889 10.0554796 3.73902222 9.35213622 3.73902222 8.58198371 3.73902222 7.82888884 3.85934222 7.13037842 4.09799111 6.48332522 4.33550222 5.8374092 4.66688 5.28047721 5.09127111 4.81053919 5.51281778 4.34259122 6.01372444 3.97585193 6.59057778 3.71430143 7.16828444 3.45331951 7.79377778 3.32339714 8.47217778 3.32339714 9.14744889 3.32339714 9.74449778 3.43739905 10.2619022 3.66881438 10.7761778 3.89909254 11.2096711 4.23001079 11.5649422 4.66071623L14.336 2.39972586C13.9807289 1.95509001 13.5802311 1.57868472 13.1350756 1.26965711 12.6887822.963188154 12.2222933.714999471 11.7370311.531345531 11.25376.346554416 10.7599644.213220518 10.2616178.127079429 9.76071111.0440655738 9.27857778.000568588049 8.81863111.000568588049 7.54119111.000568588049 6.36245333.199858699 5.28753778.601566155 4.20864 1.00099926 3.27765333 1.57356742 2.49400889 2.31927065 1.70752 3.06497388 1.09596444 3.96988176.657635556 5.02944558.219875556 6.09128377.000568888889 7.27565267.000568888889 8.58226801.000568888889 9.88945193.219875556 11.0741051.657635556 12.1348061 1.09596444 13.1960757 1.70780444 14.1009836 2.49486222 14.8466868 3.27907556 15.5923901 4.20949333 16.1635368 5.28753778 16.5643913 6.36302222 16.9652459 7.54232889 17.1651046 8.81863111 17.1651046 9.94048 17.1651046 11.0330311 16.9331207 12.096 16.4731329 13.1569778 16.0097337 14.0350578 15.29644 14.7273956 14.3264288L11.7256533 12.0878976C11.3572978 12.6425553 10.8888178 13.0726921 10.3185067 13.3797297zM30.46912.41677504L26.8680533.41677504 26.8680533 10.3133343C26.8680533 10.8213677 26.7864178 11.2904529 26.6254222 11.7203054 26.4641422 12.1512952 26.2365867 12.5240047 25.9453156 12.839571 25.6517689 13.1542845 25.3061689 13.401336 24.9053867 13.577314 24.5057422 13.7541449 24.0662756 13.8425603 23.5889778 13.8425603 23.1128178 13.8425603 22.6705067 13.7541449 22.2631822 13.577314 21.8552889 13.4007674 21.5057067 13.1542845 21.2124444 12.839571 20.9197511 12.5240047 20.6921956 12.1507266 20.5320533 11.7203054 20.3713422 11.2904529 20.2897067 10.8202306 20.2897067 10.3133343L20.2897067.41677504 16.6889244.41677504 16.6889244 10.4506483C16.6889244 11.4212281 16.8359822 12.3127742 17.1275378 13.1278452 17.4202311 13.9423475 17.8548622 14.6508082 18.4305778 15.2495315 19.0094222 15.850529 19.7279289 16.3193299 20.5903644 16.6576398 21.4525156 16.9968025 22.4534756 17.1651046 23.5895467 17.1651046 24.7136711 17.1651046 25.7069511 16.9968025 26.5685333 16.6576398 27.4295467 16.3196142 28.1514667 15.8508133 28.7280356 15.2495315 29.3037511 14.6510925 29.7389511 13.9423475 30.0316444 13.1278452 30.3229156 12.3127742 30.4702578 11.420091 30.4702578 10.4506483L30.4696889 10.4506483 30.4696889.41677504 30.46912.41677504zM43.0492444 11.0741051L43.00288 11.0741051 39.2393956.415922158 33.7948444.415922158 33.7948444 16.7500353 37.39392 16.7500353 37.39392 4.22205056 37.4405689 4.22205056 41.5721244 16.7500353 44.3172978 16.7500353 48.6126933 4.22205056 48.6590578 4.22205056 48.6590578 16.7500353 52.2604089 16.7500353 52.2604089.41677504 46.8354844.41677504 43.0492444 11.0741051zM69.3617778.41677504L65.7615644.41677504 65.7615644 10.3133343C65.7615644 10.8213677 65.6810667 11.2904529 65.5200711 11.7203054 65.3568 12.1512952 65.1309511 12.5240047 64.8376889 12.839571 64.5455644 13.1542845 64.1999644 13.401336 63.80032 13.577314 63.3998222 13.7541449 62.9595022 13.8425603 62.4836267 13.8425603 62.00832 13.8425603 61.5648711 13.7541449 61.1578311 13.577314 60.7485156 13.4007674 60.3992178 13.1542845 60.1076622 12.839571 59.8138311 12.5240047 59.5868444 12.1507266 59.4261333 11.7203054 59.2648533 11.2904529 59.1832178 10.8202306 59.1832178 10.3133343L59.1832178.41677504 55.5835733.41677504 55.5835733 10.4506483C55.5835733 11.4212281 55.7297778 12.3127742 56.0213333 13.1278452 56.3120356 13.9423475 56.7497956 14.6508082 57.3249422 15.2495315 57.9015111 15.850529 58.6225778 16.3193299 59.4855822 16.6576398 60.3451733 16.9968025 61.3461333 17.1651046 62.4850489 17.1651046 63.6086044 17.1651046 64.5996089 16.9968025 65.4626133 16.6576398 66.32448 16.3196142 67.0429867 15.8508133 67.6206933 15.2495315 68.1984 14.6510925 68.6333156 13.9423475 68.9257244 13.1278452 69.2181333 12.3127742 69.3632 11.420091 69.3632 10.4506483L69.3617778 10.4506483 69.3617778.41677504 69.3617778.41677504zM76.4268089.41677504L72.8257422.41677504 72.8251733.41677504 72.8251733 16.7500353 83.0958933 16.7500353 83.0958933 13.4283439 76.4268089 13.4283439 76.4268089.41677504 76.4268089.41677504zM99.3476267 2.31784918C98.5628444 1.57271454 97.6312889 1.00043067 96.5540978.599576097 95.4780444.199574405 94.2987378 0 93.0235733 0 91.74528 0 90.5679644.199290111 89.4907733.600997567 88.4138667 1.00043067 87.4834489 1.57299884 86.6978133 2.31870206 85.9127467 3.06440529 85.3006222 3.96902887 84.8622933 5.02916129 84.4248178 6.09043088 84.2046578 7.27508408 84.2046578 8.58169942 84.2046578 9.88945193 84.4248178 11.0741051 84.8637156 12.1339533 85.3006222 13.1957914 85.9136 14.100415 86.6989511 14.8455497 87.4840178 15.5926744 88.4144356 16.163821 89.4919111 16.5646756 90.5679644 16.964393 91.74528 17.1636831 93.0235733 17.1636831 94.2987378 17.1636831 95.4783289 16.964393 96.5540978 16.5646756 97.6312889 16.163821 98.5631289 15.5926744 99.3476267 14.8455497 100.132693 14.0992778 100.744533 13.1955071 101.182862 12.1339533 101.622329 11.0741051 101.841067 9.88945193 101.841067 8.58169942 101.841067 7.27451549 101.622044 6.08929371 101.182862 5.02773982 100.744533 3.96874458 100.132409 3.06412099 99.3476267 2.31784918zM97.7436444 10.6948569C97.5058489 11.3316755 97.1625244 11.8843431 96.7156622 12.3542811 96.2702222 12.8239348 95.7366044 13.1889684 95.1125333 13.4502346 94.4887467 13.7117851 93.7927111 13.8411389 93.0235733 13.8411389 92.2524444 13.8411389 91.5564089 13.7117851 90.9331911 13.4502346 90.3102578 13.1881155 89.7749333 12.8236506 89.3294933 12.3542811 88.8846222 11.8840588 88.5418667 11.3313912 88.3029333 10.6948569 88.0631467 10.0549111 87.9445333 9.35156764 87.9445333 8.58169942 87.9445333 7.82803596 88.0631467 7.13009413 88.3029333 6.48304093 88.5418667 5.8376935 88.8826311 5.2810458 89.3294933 4.81025489 89.7746489 4.34230693 90.3102578 3.97670481 90.9331911 3.71458572 91.5564089 3.45275093 92.2527289 3.32282856 93.0235733 3.32282856 93.7927111 3.32282856 94.4887467 3.45275093 95.1125333 3.71458572 95.73632 3.97670481 96.2699378 4.34230693 96.7156622 4.81025489 97.1625244 5.27962433 97.5058489 5.8376935 97.7436444 6.48304093 97.9825778 7.12980984 98.1026133 7.82832025 98.1026133 8.58169942 98.1026133 9.35185193 97.9811556 10.0551953 97.7436444 10.6948569zM113.728569 13.3797297C113.158542 13.6887573 112.50432 13.8417075 111.76448 13.8417075 111.119644 13.8417075 110.514916 13.7112165 109.953707 13.4490974 109.39136 13.1886841 108.902969 12.8227977 108.486542 12.3528597 108.072107 11.8843431 107.745564 11.3316755 107.506631 10.6934354 107.267982 10.0551953 107.147378 9.35099905 107.147378 8.58169942 107.147378 7.82860455 107.268836 7.12867266 107.506631 6.48304093 107.745564 5.83712491 108.074951 5.28019291 108.499342 4.81025489 108.922311 4.34230693 109.422364 3.97556764 110.000071 3.71401713 110.577778 3.45303522 111.203271 3.32311285 111.88224 3.32311285 112.557511 3.32311285 113.154276 3.43711475 113.670258 3.66853009 114.185102 3.89880825 114.619164 4.22972649 114.973867 4.66043194L117.742649 2.39944157C117.389369 1.95480571 116.988018 1.57840042 116.543716 1.26937282 116.096853.96290386 115.631787.714715177 115.146524.531061237 114.662116.346270122 114.168604.212936224 113.669973.126795135 113.169636.0437812797 112.686933.000284294024 112.227556.000284294024 110.948693.000284294024 109.770809.199574405 108.696178.599860391 107.617564.999862084 106.687716 1.57328313 105.901796 2.31813347 105.117013 3.06440529 104.503751 3.96846029 104.067413 5.02830841 103.629084 6.08929371 103.409493 7.27451549 103.409493 8.58169942 103.409493 9.88831475 103.629084 11.0735365 104.067413 12.1342375 104.503751 13.1955071 105.117013 14.100415 105.901796 14.8446968 106.688284 15.5918215 107.617849 16.1629682 108.696178 16.5638227 109.771947 16.9646773 110.948693 17.1633988 112.228693 17.1633988 113.350827 17.1633988 114.441102 16.9325521 115.503502 16.4714272 116.56704 16.0091651 117.443129 15.2944499 118.135751 14.3258602L115.134293 12.087329C114.765938 12.6419867 114.297742 13.0726921 113.728569 13.3797297zM120.052622 16.7500353L123.651982 16.7500353 123.651982.41677504 120.052622.41677504 120.052622 16.7500353zM149.666987.41677504L145.997653 6.52881227 142.535111.41677504 138.357191.41677504 138.055964.41677504 125.431467.41677504 125.431467 3.59944664 130.091804 3.59944664 130.091804 16.7500353 133.694293 16.7500353 133.694293 3.59944664 138.357191 3.59944664 138.357191.875625595 144.196836 9.78198879 144.196836 16.7500353 147.79648 16.7500353 147.79648 9.78198879 153.935644.415922158 149.666987.415922158 149.666987.41677504zM161.921707 16.7500353L165.523627 16.7500353 165.523627.41677504 161.921707.41677504 161.921707 16.7500353zM178.601529 6.86399492C178.038898 6.34800127 177.376711 5.95141111 176.616676 5.6756459 175.852658 5.39789064 175.041138 5.26057663 174.181262 5.26057663 173.316836 5.26057663 172.505316 5.39789064 171.745849 5.6756459 170.982969 5.95141111 170.320213 6.34800127 169.759289 6.86399492 169.196373 7.3788514 168.756907 7.99861237 168.432071 8.72100349 168.108942 9.44282602 167.947947 10.2519268 167.947947 11.1429043 167.947947 12.0367247 168.108942 12.8426983 168.432071 13.5653737 168.756907 14.2900391 169.196658 14.9072415 169.759289 15.4215293 170.320498 15.937523 170.983253 16.3335446 171.745849 16.6107313 172.507591 16.8867808 173.316836 17.0260848 174.181262 17.0260848 175.041138 17.0260848 175.852942 16.8873493 176.616676 16.6107313 177.376711 16.332976 178.038898 15.9386602 178.601529 15.4215293 179.162738 14.9080943 179.604196 14.2900391 179.927893 13.5653737 180.251591 12.8426983 180.413156 12.0347346 180.413156 11.1429043 180.413156 10.2522111 180.251591 9.44311031 179.927893 8.72100349 179.60448 7.99832808 179.162738 7.3788514 178.601529 6.86399492zM176.223573 13.1957914C175.736604 13.7205982 175.057351 13.9810115 174.17984 13.9810115 173.30176 13.9810115 172.621653 13.7203139 172.136391 13.1957914 171.651698 12.6738276 171.40992 11.9895319 171.40992 11.1429043 171.40992 10.2976981 171.652267 9.61283384 172.136391 9.09001713 172.621653 8.56890619 173.300907 8.30564992 174.17984 8.30564992 175.055076 8.30564992 175.736604 8.56862189 176.223573 9.09001713 176.705991 9.61198096 176.948623 10.2976981 176.948623 11.1429043 176.949191 11.9892476 176.705991 12.6738276 176.223573 13.1957914zM179.073138.41677504L179.073138 3.59944664 183.736604 3.59944664 183.736604 16.7500353 187.336818 16.7500353 187.336818 3.59944664 192 3.59944664 192 .415922158 179.073138.415922158 179.073138.41677504z" transform="translate(24 22)"/>
+    <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="16">
+      <tspan x="83.809" y="130">App name</tspan>
+    </text>
+    <g transform="translate(95 62)" style="mix-blend-mode:luminosity">
+      <g transform="translate(.398 .398)">
+        <mask id="dashboard-layout-b" fill="#fff">
+          <use xlink:href="#dashboard-layout-a"/>
+        </mask>
+        <use fill="#12365B" fill-rule="nonzero" xlink:href="#dashboard-layout-a"/>
+        <g fill="#FFF" mask="url(#dashboard-layout-b)">
+          <rect width="50.303" height="50.303"/>
+        </g>
+      </g>
+      <path fill="#5FAEEC" d="M6.6862793,38.1254883 C10.157168,38.1254883 12.9741211,40.9403455 12.9741211,44.4133301 C12.9741211,47.8863147 10.157168,50.7011719 6.6862793,50.7011719 C3.21539062,50.7011719 0.3984375,47.8863147 0.3984375,44.4133301 C0.3984375,40.9403455 3.21539062,38.1254883 6.6862793,38.1254883 Z M25.5498047,38.1254883 C29.0206934,38.1254883 31.8376465,40.9403455 31.8376465,44.4133301 C31.8376465,47.8863147 29.0206934,50.7011719 25.5498047,50.7011719 C22.078916,50.7011719 19.2619629,47.8863147 19.2619629,44.4133301 C19.2619629,40.9403455 22.078916,38.1254883 25.5498047,38.1254883 Z M44.4133301,38.1254883 C47.8842187,38.1254883 50.7011719,40.9403455 50.7011719,44.4133301 C50.7011719,47.8863147 47.8842187,50.7011719 44.4133301,50.7011719 C40.9424414,50.7011719 38.1254883,47.8863147 38.1254883,44.4133301 C38.1254883,40.9403455 40.9424414,38.1254883 44.4133301,38.1254883 Z M6.6862793,42.3173828 C5.52931641,42.3173828 4.59033203,43.2584631 4.59033203,44.4133301 C4.59033203,45.568197 5.52931641,46.5092773 6.6862793,46.5092773 C7.84324219,46.5092773 8.78222656,45.568197 8.78222656,44.4133301 C8.78222656,43.2584631 7.84324219,42.3173828 6.6862793,42.3173828 Z M25.5498047,42.3173828 C24.3928418,42.3173828 23.4538574,43.2584631 23.4538574,44.4133301 C23.4538574,45.568197 24.3928418,46.5092773 25.5498047,46.5092773 C26.7067676,46.5092773 27.645752,45.568197 27.645752,44.4133301 C27.645752,43.2584631 26.7067676,42.3173828 25.5498047,42.3173828 Z M44.4133301,42.3173828 C43.2563672,42.3173828 42.3173828,43.2584631 42.3173828,44.4133301 C42.3173828,45.568197 43.2563672,46.5092773 44.4133301,46.5092773 C45.570293,46.5092773 46.5092773,45.568197 46.5092773,44.4133301 C46.5092773,43.2584631 45.570293,42.3173828 44.4133301,42.3173828 Z"/>
+    </g>
+    <use fill="#FFF" xlink:href="#dashboard-layout-c"/>
+    <use fill="#000" filter="url(#dashboard-layout-d)" xlink:href="#dashboard-layout-c"/>
+    <use fill="#000" filter="url(#dashboard-layout-e)" xlink:href="#dashboard-layout-f"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-f"/>
+    <use fill="#000" filter="url(#dashboard-layout-g)" transform="translate(269 64)" xlink:href="#dashboard-layout-h"/>
+    <rect width="87" height="14" x="1123" y="121" fill="#D8D8D8"/>
+    <rect width="87" height="14" x="1233" y="121" fill="#D8D8D8"/>
+    <rect width="66" height="14" x="1348" y="121" fill="#D8D8D8"/>
+    <g transform="translate(240)">
+      <use fill="#000" filter="url(#dashboard-layout-i)" xlink:href="#dashboard-layout-j"/>
+      <use fill="#FFF" xlink:href="#dashboard-layout-j"/>
+      <use fill="#000" filter="url(#dashboard-layout-k)" xlink:href="#dashboard-layout-l"/>
+      <text fill="#0B385B" font-family="FontAwesome" font-size="16">
+        <tspan x="11" y="36"></tspan>
+      </text>
+      <g transform="translate(869)">
+        <use fill="#000" filter="url(#dashboard-layout-m)" xlink:href="#dashboard-layout-n"/>
+        <text fill="#D8D8D8" font-family="FontAwesome" font-size="28">
+          <tspan x="20" y="42"></tspan>
+        </text>
+      </g>
+      <g transform="translate(933)">
+        <use fill="#000" filter="url(#dashboard-layout-o)" xlink:href="#dashboard-layout-p"/>
+        <text fill="#D8D8D8" font-family="FontAwesome" font-size="28">
+          <tspan x="21" y="42"></tspan>
+        </text>
+      </g>
+      <g transform="translate(997)">
+        <use fill="#000" filter="url(#dashboard-layout-q)" xlink:href="#dashboard-layout-r"/>
+        <text fill="#D8D8D8" font-family="FontAwesome" font-size="28">
+          <tspan x="20" y="42"></tspan>
+        </text>
+      </g>
+      <g transform="translate(1062)">
+        <use fill="#000" filter="url(#dashboard-layout-s)" xlink:href="#dashboard-layout-t"/>
+        <text fill="#D8D8D8" font-family="c8y-icon" font-size="28">
+          <tspan x="68" y="42"></tspan>
+        </text>
+      </g>
+      <g transform="translate(1169)">
+        <use fill="#000" filter="url(#dashboard-layout-u)" transform="matrix(-1 0 0 1 31 0)" xlink:href="#dashboard-layout-v"/>
+        <text fill="#0B385B" font-family="FontAwesome" font-size="14">
+          <tspan x="12" y="37"></tspan>
+        </text>
+      </g>
+      <text fill="#0B385B" font-family="Roboto-Regular, Roboto" font-size="16">
+        <tspan x="1076" y="37">admin</tspan>
+      </text>
+      <rect width="201" height="19" x="40" y="23" fill="#D8D8D8"/>
+      <rect width="59" height="19" x="1066" y="23" fill="#D8D8D8"/>
+      <rect width="91" height="14" x="37" y="78" fill="#D8D8D8"/>
+      <rect width="91" height="14" x="148" y="78" fill="#D8D8D8"/>
+      <rect width="91" height="14" x="256" y="78" fill="#D8D8D8"/>
+    </g>
+    <rect width="209" height="18" x="16" y="164" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="268" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="372" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="190" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="294" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="398" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="216" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="320" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="424" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="242" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="346" fill="#FFF" fill-opacity=".3"/>
+    <rect width="209" height="18" x="16" y="450" fill="#FFF" fill-opacity=".3"/>
+    <use fill="#000" filter="url(#dashboard-layout-w)" xlink:href="#dashboard-layout-x"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-x"/>
+    <use fill="#000" filter="url(#dashboard-layout-y)" xlink:href="#dashboard-layout-z"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-z"/>
+    <use fill="#000" filter="url(#dashboard-layout-A)" xlink:href="#dashboard-layout-B"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-B"/>
+    <use fill="#000" filter="url(#dashboard-layout-C)" xlink:href="#dashboard-layout-D"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-D"/>
+    <use fill="#000" filter="url(#dashboard-layout-E)" xlink:href="#dashboard-layout-F"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-F"/>
+    <use fill="#000" filter="url(#dashboard-layout-G)" xlink:href="#dashboard-layout-H"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-H"/>
+    <use fill="#000" filter="url(#dashboard-layout-I)" xlink:href="#dashboard-layout-J"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-J"/>
+    <use fill="#000" filter="url(#dashboard-layout-K)" xlink:href="#dashboard-layout-L"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-L"/>
+    <use fill="#000" filter="url(#dashboard-layout-M)" xlink:href="#dashboard-layout-N"/>
+    <use fill="#FFF" xlink:href="#dashboard-layout-N"/>
+  </g>
+</svg>
