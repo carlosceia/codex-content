@@ -1,0 +1,1 @@
+{"name":"operationStatusClasses","ctype":"miscellaneous","subtype":"variable","file":"core/common/status.model.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  [OperationStatus.PENDING]: 'text-info',\n  [OperationStatus.EXECUTING]: 'text-info',\n  [OperationStatus.SUCCESSFUL]: 'text-success',\n  [OperationStatus.FAILED]: 'text-danger'\n}"}

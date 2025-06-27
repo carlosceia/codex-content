@@ -1,0 +1,1 @@
+{"name":"ecommerceIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/ecommerce/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('e-commerce`icons-category`'),\n  icons: ecommerceIcons\n} as const"}

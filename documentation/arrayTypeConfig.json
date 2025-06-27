@@ -1,0 +1,1 @@
+{"name":"arrayTypeConfig","ctype":"miscellaneous","subtype":"variable","file":"core/dynamic-forms/array/array.type.component.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"(): EnvironmentProviders =>\n  importProvidersFrom(\n    FormlyModule.forChild({ types: [{ name: 'array', component: ArrayTypeComponent }] })\n  )"}

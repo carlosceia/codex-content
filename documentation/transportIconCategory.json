@@ -1,0 +1,1 @@
+{"name":"transportIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/transport/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Transport`icons-category`'),\n  icons: transportIcons\n} as const"}

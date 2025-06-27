@@ -1,0 +1,1 @@
+{"name":"legalNoticesItem","ctype":"miscellaneous","subtype":"variable","file":"core/docs/defaults.items.ts","deprecated":false,"deprecationMessage":"","type":"DocLinkWithLabel","defaultValue":"{\n  icon: 'gavel',\n  label: gettext('Legal notices'),\n  url: 'https://cumulocity.com/docs/legal-notices/',\n  type: 'doc'\n}"}

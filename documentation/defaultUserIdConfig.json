@@ -1,0 +1,1 @@
+{"name":"defaultUserIdConfig","ctype":"miscellaneous","subtype":"variable","file":"auth-configuration/sso-configuration/template-parts/external-token-config.model.ts","deprecated":false,"deprecationMessage":"","type":"UserIdConfig","defaultValue":"{\n  jwtField: '',\n  useConstantValue: true\n}"}

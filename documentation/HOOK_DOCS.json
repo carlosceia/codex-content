@@ -1,0 +1,1 @@
+{"name":"HOOK_DOCS","ctype":"miscellaneous","subtype":"variable","file":"core/docs/docs.models.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<DocLinkExtension[]>('HOOK_DOCS')"}

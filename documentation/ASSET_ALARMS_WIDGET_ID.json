@@ -1,0 +1,1 @@
+{"name":"ASSET_ALARMS_WIDGET_ID","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/alarms/alarm-list-widget.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'Asset Alarms'"}

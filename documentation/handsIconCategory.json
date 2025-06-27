@@ -1,0 +1,1 @@
+{"name":"handsIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/hands/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Hands`human hands, icons-category`'),\n  icons: handsIcons\n} as const"}

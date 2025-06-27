@@ -1,0 +1,1 @@
+{"name":"ControlConfigsMap","ctype":"miscellaneous","subtype":"typealias","rawtype":"Partial<Record<Extract<GlobalContextState, \"dateTimeContext\" | \"aggregation\" | \"isAutoRefreshEnabled\">, literal type>>","file":"global-context/control-flow.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Type for control configs map</p>\n","kind":183}

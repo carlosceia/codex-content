@@ -1,0 +1,1 @@
+{"name":"NAME_DATA_BROKER","ctype":"miscellaneous","subtype":"variable","file":"data-broker/ng1/index.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'c8y.upgrade.dataBroker'"}

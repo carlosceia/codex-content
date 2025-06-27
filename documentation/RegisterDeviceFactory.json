@@ -1,0 +1,1 @@
+{"name":"RegisterDeviceFactory","ctype":"miscellaneous","subtype":"typealias","rawtype":"ExtensionFactory<RegisterDeviceItem>","file":"register-device/dropdown/RegisterDeviceItem.ts","deprecated":false,"deprecationMessage":"","description":"<p>Factory to implement if used in a hook for Multi Provider extension.</p>\n","kind":183}

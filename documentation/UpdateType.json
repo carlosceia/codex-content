@@ -1,0 +1,1 @@
+{"name":"UpdateType","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"install\" | \"uninstall\"","file":"ecosystem/application-plugins/apps-to-update-remotes-select.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

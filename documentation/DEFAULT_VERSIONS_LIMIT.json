@@ -1,0 +1,1 @@
+{"name":"DEFAULT_VERSIONS_LIMIT","ctype":"miscellaneous","subtype":"variable","file":"ecosystem/packages/package-versions/package-versions-list/package-versions-list.component.ts","deprecated":false,"deprecationMessage":"","type":"number","defaultValue":"20"}

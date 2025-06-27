@@ -1,0 +1,1 @@
+{"name":"weatherIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/weather/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Weather`icons-category`'),\n  icons: weatherIcons\n} as const"}

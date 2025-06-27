@@ -1,0 +1,1 @@
+{"name":"STYLING_CLASS_PREFIXES","ctype":"miscellaneous","subtype":"variable","file":"context-dashboard/context-dashboard.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"[\n  'dashboard-theme-',\n  'panel-title-',\n  'panel-content-'\n] as const"}

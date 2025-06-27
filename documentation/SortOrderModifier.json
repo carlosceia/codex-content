@@ -1,0 +1,1 @@
+{"name":"SortOrderModifier","childs":[{"name":"Keep","deprecated":false,"deprecationMessage":""},{"name":"Invert","deprecated":false,"deprecationMessage":""}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"core/data-grid/data-grid.model.ts"}

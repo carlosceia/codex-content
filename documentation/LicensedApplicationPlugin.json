@@ -1,0 +1,1 @@
+{"name":"LicensedApplicationPlugin","ctype":"miscellaneous","subtype":"typealias","rawtype":"Pick<ApplicationPlugin | \"type\" | \"license\" | \"name\" | \"version\" | \"contextPath\">","file":"ecosystem/shared/ecosystem.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":183}

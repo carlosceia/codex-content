@@ -1,0 +1,1 @@
+{"name":"ActionBarItem","ctype":"miscellaneous","subtype":"typealias","rawtype":"ActionBarItemWithTemplate | ActionBarItemWithComponent","file":"core/action-bar/action-bar.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>An action bar item is a action in scope of a\ncurrent route of the application.</p>\n","kind":192}

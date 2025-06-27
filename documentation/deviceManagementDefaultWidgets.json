@@ -1,0 +1,1 @@
+{"name":"deviceManagementDefaultWidgets","ctype":"miscellaneous","subtype":"variable","file":"widgets/device-management/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"[\n  deviceManagementWelcomeWidgetDefinition,\n  assetNotesWidgetDefinition\n] satisfies DynamicWidgetDefinition[]"}

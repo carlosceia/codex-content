@@ -1,0 +1,1 @@
+{"name":"numberBrandingVars","ctype":"miscellaneous","subtype":"variable","file":"branding/shared/data/branding.type.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"['brand-logo-img-height', 'btn-border-radius-base'] as const"}

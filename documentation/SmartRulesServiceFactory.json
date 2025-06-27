@@ -1,0 +1,1 @@
+{"name":"SmartRulesServiceFactory","file":"upgrade/smart-rules.service.ts","ctype":"miscellaneous","subtype":"function","deprecated":false,"deprecationMessage":"","description":"","args":[{"name":"injector","type":"any","deprecated":false,"deprecationMessage":""}],"jsdoctags":[{"name":"injector","type":"any","deprecated":false,"deprecationMessage":"","tagName":{"text":"param"}}]}

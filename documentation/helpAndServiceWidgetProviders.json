@@ -1,0 +1,1 @@
+{"name":"helpAndServiceWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/help-and-service/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(helpAndServiceWidgetDefinition)]"}

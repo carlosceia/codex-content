@@ -1,0 +1,1 @@
+{"name":"helpComponentDowngradedComponent","ctype":"miscellaneous","subtype":"variable","file":"upgrade/ng1/downgraded.components.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"downgradeComponent({ component: HelpComponent })"}

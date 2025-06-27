@@ -1,0 +1,1 @@
+{"name":"officeIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/office/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Office`icons-category`'),\n  icons: officeIcons\n} as const"}

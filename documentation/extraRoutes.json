@@ -1,0 +1,1 @@
+{"name":"extraRoutes","ctype":"miscellaneous","subtype":"variable","file":"core/router/router.module.ts","deprecated":false,"deprecationMessage":"","type":"Route[]","defaultValue":"[\n  {\n    path: 'users/new',\n    component: EmptyComponent\n  }\n]"}

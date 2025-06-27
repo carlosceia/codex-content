@@ -1,0 +1,1 @@
+{"name":"authBridgeServiceProvider","ctype":"miscellaneous","subtype":"variable","file":"upgrade/auth-bridge.service.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  provide: AuthBridgeService,\n  useFactory: authBridgeServiceFactory,\n  deps: ['$injector', BasicAuth, FetchClient, AppStateService, TenantUiService]\n}"}

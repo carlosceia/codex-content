@@ -1,0 +1,1 @@
+{"name":"Route","ctype":"miscellaneous","subtype":"typealias","rawtype":"RouteDefault | RouteWithTab | RouteWithComponent","file":"core/router/router.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>A route that can be added via the HOOK_ROUTE.</p>\n","kind":192}

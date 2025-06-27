@@ -1,0 +1,1 @@
+{"name":"ModalSelectionMode","childs":[{"name":"SINGLE","deprecated":false,"deprecationMessage":"","value":"single"},{"name":"MULTI","deprecated":false,"deprecationMessage":"","value":"multi"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"core/select-modal/select-modal.model.ts"}

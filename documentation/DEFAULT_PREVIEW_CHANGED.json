@@ -1,0 +1,1 @@
+{"name":"DEFAULT_PREVIEW_CHANGED","ctype":"miscellaneous","subtype":"variable","file":"context-dashboard/dashboard-detail.service.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"() => {\n  throw new Error('previewChanged Not implemented');\n}"}

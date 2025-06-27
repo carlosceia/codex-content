@@ -1,0 +1,1 @@
+{"name":"dateAndTimeIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/dateAndTime/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Date and time`icons-category`'),\n  icons: dateAndTimeIcons\n} as const"}

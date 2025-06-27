@@ -1,0 +1,94 @@
+<div
+  class="codex-tutorial-example__header"
+  *ngIf="!hideToggleButton"
+>
+  <button
+    class="btn btn-sm btn-clean showSource"
+    aria-controls="showSource"
+    [attr.aria-expanded]="!open"
+    (click)="toggleSource()"
+  >
+    <span
+      class="m-r-4"
+      c8yIcon="source-code"
+    ></span>
+    {{ open ? ('Hide code' | translate) : ('Show code' | translate) }}
+  </button>
+</div>
+<div
+  [collapse]="!open"
+  [isAnimated]="true"
+>
+  <div class="codex-tutorial-example__code">
+    <ul class="nav nav-tabs nav-tabsc8y">
+      <ng-container *ngIf="sources.length > 1">
+        <ng-container *ngFor="let source of sources">
+          <li [ngClass]="{ active: (currentTab$ | async) === source.fileName }">
+            <button
+              [title]="source.fileName"
+              (click)="show(source.fileName)"
+            >
+              {{ source.fileName | tabName }}
+              <span
+                class="tag m-l-4"
+                [ngClass]="{
+                  'tag--info': source.extension === 'ts',
+                  'tag--warning': source.extension === 'html',
+                  'tag--default': source.extension !== 'html' && source.extension !== 'ts'
+                }"
+              >
+                {{ source.extension }}
+              </span>
+            </button>
+          </li>
+        </ng-container>
+      </ng-container>
+    </ul>
+    <div class="codex-tutorial-example__code-actions">
+      <button
+        class="btn btn-dot showAllCode"
+        [attr.aria-label]="'Show full code'"
+        tooltip="Show full code"
+        type="button"
+        *ngIf="hasImportant"
+        (click)="showAllCode()"
+      >
+        <i c8yIcon="code"></i>
+      </button>
+      <button
+        class="btn btn-dot"
+        [attr.aria-label]="'Copy code'"
+        tooltip="Copy code"
+        type="button"
+        (click)="copy()"
+      >
+        <i c8yIcon="clipboard"></i>
+      </button>
+    </div>
+    <div [innerHTML]="currentContent$ | async | markdownToHtml | async | highlight | async"></div>
+  </div>
+</div>
+
+<div
+  class="codex-tutorial-example__content"
+  *ngIf="!module"
+>
+  <ng-content></ng-content>
+</div>
+
+<div
+  class="tutorial-content"
+  style="width: 100%; border: 0"
+  [style.height.px]="iframeHeight"
+  *ngIf="module"
+>
+  <iframe
+    style="width: 100%; border: 0"
+    [style.height.px]="iframeHeight"
+    [style.resize]="'horizontal'"
+    title="Example"
+    *ngIf="module && (intersected$ | async)"
+    (load)="adjustIframeHeight($event)"
+    [src]="fullSrc"
+  ></iframe>
+</div>

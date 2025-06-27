@@ -1,0 +1,1 @@
+{"name":"HOOK_PREVIEW","ctype":"miscellaneous","subtype":"variable","file":"core/beta-feature/beta-preview.service.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<BetaFeature[]>('HOOK_PREVIEW')"}

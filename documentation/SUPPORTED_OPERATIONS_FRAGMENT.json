@@ -1,0 +1,1 @@
+{"name":"SUPPORTED_OPERATIONS_FRAGMENT","ctype":"miscellaneous","subtype":"variable","file":"repository/firmware/device-tab/firmware-device-tab.guard.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'c8y_SupportedOperations'"}

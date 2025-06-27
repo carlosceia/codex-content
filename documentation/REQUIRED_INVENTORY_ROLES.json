@@ -1,0 +1,1 @@
+{"name":"REQUIRED_INVENTORY_ROLES","ctype":"miscellaneous","subtype":"variable","file":"replace-device/replace-device.service.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[\n  Permissions.ROLE_INVENTORY_READ,\n  Permissions.ROLE_INVENTORY_ADMIN\n]"}

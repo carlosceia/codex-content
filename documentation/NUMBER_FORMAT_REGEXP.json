@@ -1,0 +1,1 @@
+{"name":"NUMBER_FORMAT_REGEXP","ctype":"miscellaneous","subtype":"variable","file":"core/common/number.pipe.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"/^(\\d+)?\\.((\\d+)(-(\\d+))?)?$/"}

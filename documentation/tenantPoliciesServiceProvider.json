@@ -1,0 +1,1 @@
+{"name":"tenantPoliciesServiceProvider","ctype":"miscellaneous","subtype":"variable","file":"upgrade/upgraded-services/tenant-policies.service.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  provide: Ng1TenantPoliciesService,\n  useFactory: TenantPoliciesFactory,\n  deps: ['$injector']\n}"}

@@ -1,0 +1,1 @@
+{"name":"MICROSERVICE_NAME_MAX_LENGTH","ctype":"miscellaneous","subtype":"variable","file":"ecosystem/shared/ecosystem.service.ts","deprecated":false,"deprecationMessage":"","type":"number","defaultValue":"23"}

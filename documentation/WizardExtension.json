@@ -1,0 +1,1 @@
+{"name":"WizardExtension","ctype":"miscellaneous","subtype":"typealias","rawtype":"WizardEntry | WizardEntry[] | ExtensionFactory<WizardEntry>","file":"core/wizard/wizard.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

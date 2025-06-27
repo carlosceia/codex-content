@@ -1,0 +1,1 @@
+{"name":"securityIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/security/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Security`icons-category`'),\n  icons: securityIcons\n} as const"}

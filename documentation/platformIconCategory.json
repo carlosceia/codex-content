@@ -1,0 +1,1 @@
+{"name":"platformIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/platform/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Platform`icons-category`'),\n  icons: platformIcons\n} as const"}

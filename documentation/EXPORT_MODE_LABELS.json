@@ -1,0 +1,1 @@
+{"name":"EXPORT_MODE_LABELS","ctype":"miscellaneous","subtype":"variable","file":"datapoints-export-selector/datapoints-export-selector.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  FULL: gettext('Full`export type`') as 'Full',\n  COMPACT: gettext('Compact`export type`') as 'Compact'\n} as const"}

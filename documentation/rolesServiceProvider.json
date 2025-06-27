@@ -1,0 +1,1 @@
+{"name":"rolesServiceProvider","ctype":"miscellaneous","subtype":"variable","file":"upgrade/upgraded-services/roles.service.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  provide: Ng1RolesService,\n  useFactory: RolesServiceFactory,\n  deps: ['$injector']\n}"}

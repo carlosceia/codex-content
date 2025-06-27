@@ -1,0 +1,1 @@
+{"name":"InjectionType","childs":[{"name":"COMPONENT","deprecated":false,"deprecationMessage":""},{"name":"ROUTE","deprecated":false,"deprecationMessage":""}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"core/common/extension-hooks.ts"}

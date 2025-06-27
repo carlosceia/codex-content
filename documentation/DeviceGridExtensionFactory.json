@@ -1,0 +1,1 @@
+{"name":"DeviceGridExtensionFactory","ctype":"miscellaneous","subtype":"typealias","rawtype":"ExtensionFactory<DeviceGridActionHook>","file":"device-grid/device-grid.model.ts","deprecated":true,"deprecationMessage":"Use `ActionControlFactory` instead.","description":"","kind":183}

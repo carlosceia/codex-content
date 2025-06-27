@@ -1,0 +1,1 @@
+{"name":"AlertType","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"success\" | \"warning\" | \"danger\" | \"info\" | \"system\"","file":"core/alert/alert.service.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

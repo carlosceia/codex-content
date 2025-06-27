@@ -1,0 +1,1 @@
+{"name":"INFO_GAUGE_COLORS","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/info-gauge/current-measurement.pipe.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  GREEN: 'var(--c8y-brand-50)',\n  YELLOW: 'var(--c8y-palette-status-warning)',\n  RED: 'var(--c8y-palette-status-danger)'\n} as const"}

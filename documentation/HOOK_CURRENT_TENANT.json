@@ -1,0 +1,1 @@
+{"name":"HOOK_CURRENT_TENANT","ctype":"miscellaneous","subtype":"variable","file":"core/common/ui-state.service.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<IApplication>('HOOK_CURRENT_TENANT')"}

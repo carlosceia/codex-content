@@ -1,0 +1,1 @@
+{"name":"WIDGET_TYPE_VALUES","ctype":"miscellaneous","subtype":"variable","file":"core/common/interval-based-reload.abstract.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  ALARMS: 'alarms',\n  DATA_POINTS_TABLE: 'dataPointsTable'\n} as const"}

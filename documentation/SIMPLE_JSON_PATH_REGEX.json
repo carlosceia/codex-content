@@ -1,0 +1,1 @@
+{"name":"SIMPLE_JSON_PATH_REGEX","ctype":"miscellaneous","subtype":"variable","file":"core/forms/simple-json-path-validator.directive.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"/^[^.\\s]+(\\.\\S+)*$/"}

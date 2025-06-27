@@ -1,0 +1,1 @@
+{"name":"defaultMapLocation","ctype":"miscellaneous","subtype":"variable","file":"sub-assets/location/asset-location.component.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  lat: defaultMapConfig.center[0],\n  lng: defaultMapConfig.center[1]\n} as const"}

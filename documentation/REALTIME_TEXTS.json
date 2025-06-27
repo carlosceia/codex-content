@@ -1,0 +1,1 @@
+{"name":"REALTIME_TEXTS","ctype":"miscellaneous","subtype":"variable","file":"echart/models/datapoints-graph-widget.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  ACTIVE: gettext('Realtime active'),\n  INACTIVE: gettext('Realtime inactive')\n} as const"}

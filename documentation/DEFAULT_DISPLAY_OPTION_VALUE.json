@@ -1,0 +1,1 @@
+{"name":"DEFAULT_DISPLAY_OPTION_VALUE","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/quick-links/quick-links.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"QuickLinkDisplayOption.GRID"}

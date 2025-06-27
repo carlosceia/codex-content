@@ -1,0 +1,1 @@
+{"name":"ResolverServerError","ctype":"miscellaneous","subtype":"variable","file":"core/dynamic-component/dynamic-component-alert.model.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  403: gettext('Forbidden`403 server error`'),\n  404: gettext('Not found`404 server error`'),\n  500: serverError,\n  503: serverError\n}"}

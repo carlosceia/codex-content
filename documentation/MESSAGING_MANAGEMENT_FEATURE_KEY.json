@@ -1,0 +1,1 @@
+{"name":"MESSAGING_MANAGEMENT_FEATURE_KEY","ctype":"miscellaneous","subtype":"variable","file":"messaging-management/constants.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'messaging-management.api'"}

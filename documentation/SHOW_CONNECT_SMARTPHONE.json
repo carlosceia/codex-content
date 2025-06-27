@@ -1,0 +1,1 @@
+{"name":"SHOW_CONNECT_SMARTPHONE","ctype":"miscellaneous","subtype":"variable","file":"sensor-phone/sensor-phone-modal/sensor-phone.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'showConnectSmartphone'"}

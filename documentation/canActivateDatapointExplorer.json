@@ -1,0 +1,1 @@
+{"name":"canActivateDatapointExplorer","file":"datapoint-explorer/datapoint-explorer.module.ts","ctype":"miscellaneous","subtype":"function","deprecated":false,"deprecationMessage":"","description":"","args":[],"returnType":"Observable<boolean>"}

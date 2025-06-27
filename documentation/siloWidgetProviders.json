@@ -1,0 +1,1 @@
+{"name":"siloWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/silo/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(siloWidgetDefinition)]"}

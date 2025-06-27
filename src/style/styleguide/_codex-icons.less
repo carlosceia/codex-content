@@ -1,0 +1,144 @@
+
+#c8y-icons {
+  .app-icon {
+    margin-bottom: @margin-16;
+    &.copied {
+      position: relative;
+      opacity: 1 !important;
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: 0;
+        padding: 5px 3px 3px;
+        border-radius: 3px;
+        background: var(--brand-80);
+        color: white;
+        content: 'Copied!';
+        font-size: 12px;
+
+        .translate(-50%, -100%);
+      }
+      &:after {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: 0;
+        width: 0;
+        height: 0;
+        border-width: 5px 5px 5px 5px;
+        border-style: solid;
+        border-color: var(--brand-80) transparent transparent;
+        content: '';
+
+        .translate(-50%, 0);
+      }
+    }
+  }
+}
+
+
+.st-icon {
+  display: inline-block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  vertical-align: top;
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+  }
+}
+
+.st-icon-css:before {
+  content: "";
+  background-image: url('../../../content/images/icons-dark/css.svg');
+}
+.st-icon-icons:before {
+  content: "";
+  background-image: url('../../../content/images/icons-dark/icons.svg');
+}
+.st-icon-components:before {
+  content: "";
+  background-image: url('../../../content/images/icons-dark/components.svg');
+}
+.st-icon-compositions:before {
+  content: "";
+  background-image: url('../../../content/images/icons-dark/compositions.svg');
+}
+.st-icon-design:before {
+  content: "";
+  background-image: url('../../../content/images/icons-dark/design.svg');
+}
+
+.st-icon-blue{
+  &.st-icon-css:before {
+    background-image: url('../../../content/images/icons-blue/css.svg');
+  }
+  &.st-icon-icons:before {
+    background-image: url('../../../content/images/icons-blue/icons.svg');
+  }
+  &.st-icon-components:before {
+    background-image: url('../../../content/images/icons-blue/components.svg');
+  }
+  &.st-icon-compositions:before {
+    background-image: url('../../../content/images/icons-blue/compositions.svg');
+  }
+  &.st-icon-design:before {
+    background-image: url('../../../content/images/icons-blue/design.svg');
+  }
+}
+.st-icon-white{
+  &.st-icon-css:before {
+    background-image: url('../../../content/images/icons/css.svg');
+  }
+  &.st-icon-icons:before {
+    background-image: url('../../../content/images/icons/icons.svg');
+  }
+  &.st-icon-components:before {
+    background-image: url('../../../content/images/icons/components.svg');
+  }
+  &.st-icon-compositions:before {
+    background-image: url('../../../content/images/icons/compositions.svg');
+  }
+  &.st-icon-design:before {
+    background-image: url('../../../content/images/icons/design.svg');
+  }
+}
+// temporary for svgicons
+
+.c8y-svgicon svg .svg-icon-dark-color,
+.c8y-svgicon svg .svg-icon-light-color{
+  fill: currentColor;
+}
+
+.c8y-duocolor svg .svg-icon-dark-color{
+  fill: @icon-dark-color-dark;
+}
+.c8y-duocolor svg .svg-icon-light-color{
+  fill: @icon-dark-color-light;
+}
+.c8y-duocolor.light svg .svg-icon-dark-color{
+  fill: @icon-white-color-dark
+}
+.c8y-duocolor.light svg .svg-icon-light-color{
+  fill: @icon-white-color-light;
+}
+
+.c8y-svgicon {
+  display: inline-flex;
+  align-self: center;
+}
+.c8y-svgicon svg {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: .125em;
+}

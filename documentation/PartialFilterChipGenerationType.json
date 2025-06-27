@@ -1,0 +1,1 @@
+{"name":"PartialFilterChipGenerationType","ctype":"miscellaneous","subtype":"typealias","rawtype":"","file":"core/data-grid/data-grid.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Represents a partial filter chip with required properties &#39;displayValue&#39; and &#39;value&#39;.</p>\n","kind":193}

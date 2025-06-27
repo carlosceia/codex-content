@@ -1,0 +1,1 @@
+{"name":"weatherIcons","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/weather/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"[\n  ['sun'],\n  ['sunlight'],\n  ['cloud1'],\n  ['rain'],\n  ['winter'],\n  ['storm'],\n  ['keep-dry', 'umbrella']\n] as const satisfies ReadonlyArray<ReadonlyArray<string>>"}

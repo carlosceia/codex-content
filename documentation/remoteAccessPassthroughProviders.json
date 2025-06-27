@@ -1,0 +1,1 @@
+{"name":"remoteAccessPassthroughProviders","ctype":"miscellaneous","subtype":"variable","file":"remote-access/passthrough/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[\n  hookService('remoteAccessProtocolHook', PassthroughRemoteAccessProtocolProviderService)\n]"}

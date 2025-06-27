@@ -1,0 +1,1 @@
+{"name":"GlobalContextEventType","ctype":"miscellaneous","subtype":"typealias","rawtype":"","file":"global-context/global-context.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Union of all possible event type strings</p>\n","kind":198}

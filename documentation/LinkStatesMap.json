@@ -1,0 +1,1 @@
+{"name":"LinkStatesMap","ctype":"miscellaneous","subtype":"typealias","rawtype":"Partial<Record<Extract<GlobalContextState, \"dateTimeContext\" | \"aggregation\" | \"isAutoRefreshEnabled\">, boolean>>","file":"global-context/control-flow.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Type for link states map</p>\n","kind":183}

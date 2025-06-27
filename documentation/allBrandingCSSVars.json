@@ -1,0 +1,1 @@
+{"name":"allBrandingCSSVars","ctype":"miscellaneous","subtype":"variable","file":"branding/shared/data/branding.type.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"[\n  ...numberBrandingVars,\n  ...stringBrandingVars,\n  ...colorBrandingVars\n] as const"}

@@ -1,0 +1,1 @@
+{"name":"AddButtonTypes","ctype":"miscellaneous","subtype":"variable","file":"datapoint-selector/datapoint-selector-list-item/datapoint-selector-list-item.component.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  none: 'none',\n  addRemove: 'add-remove',\n  select: 'select'\n} as const"}

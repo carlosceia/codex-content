@@ -1,0 +1,1 @@
+{"name":"exportSchedulesComponentDowngradedComponent","ctype":"miscellaneous","subtype":"variable","file":"reports/ng1/downgraded.components.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"downgradeComponent({\n  component: ExportSchedulesComponent\n})"}

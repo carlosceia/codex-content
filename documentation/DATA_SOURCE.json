@@ -1,0 +1,1 @@
+{"name":"DATA_SOURCE","ctype":"miscellaneous","subtype":"variable","file":"global-context/global-context-inline.component.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  LOCAL: 'local',\n  GLOBAL: 'global'\n} as const"}

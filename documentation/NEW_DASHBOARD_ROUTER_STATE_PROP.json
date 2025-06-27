@@ -1,0 +1,1 @@
+{"name":"NEW_DASHBOARD_ROUTER_STATE_PROP","ctype":"miscellaneous","subtype":"variable","file":"core/dashboard/dashboard.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'newDashboard'"}

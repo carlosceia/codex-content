@@ -1,0 +1,1 @@
+{"name":"editingIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/editing/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Editing`icons-category`'),\n  icons: editingIcons\n} as const"}

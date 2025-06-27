@@ -1,0 +1,1 @@
+{"name":"CLEAN_KEYS_UPDATE","ctype":"miscellaneous","subtype":"variable","file":"operations/shared/operations.model.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"['deviceId', 'deviceName', 'bulkOperationId']"}

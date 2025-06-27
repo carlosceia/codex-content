@@ -1,0 +1,1 @@
+{"name":"AssetTypes","ctype":"miscellaneous","subtype":"typealias","rawtype":"Omit<MoTypes | \"brokerSource\" | \"brokerSourceInactive\">","file":"core/common/group.service.ts","deprecated":false,"deprecationMessage":"","description":"","kind":183}

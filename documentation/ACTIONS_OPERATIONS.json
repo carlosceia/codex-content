@@ -1,0 +1,1 @@
+{"name":"ACTIONS_OPERATIONS","ctype":"miscellaneous","subtype":"variable","file":"operations/product-experience/operations-product-experience.constants.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  FILTER: 'filter',\n  OPEN_OPERATION_DETAILS: 'openOperationDetails',\n  RETRY: 'retry'\n} as const"}

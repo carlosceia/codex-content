@@ -1,0 +1,1 @@
+{"name":"FILE_COMPRESSION_TYPES_VALUES","ctype":"miscellaneous","subtype":"variable","file":"datapoints-export-selector/datapoints-export-selector.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  store: 'STORE',\n  deflate: 'DEFLATE'\n} as const"}

@@ -1,0 +1,1 @@
+{"name":"OPERATION_STATUS_LABELS","ctype":"miscellaneous","subtype":"variable","file":"operations/shared/operations.model.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  PENDING: gettext('Pending'),\n  EXECUTING: gettext('Executing'),\n  FAILED: gettext('Failed'),\n  SUCCESSFUL: gettext('Successful')\n}"}

@@ -1,0 +1,1 @@
+{"name":"baseUrl","ctype":"miscellaneous","subtype":"variable","file":"operations/bulk-operations-service/bulk-operations.service.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'devicecontrol/bulk/creation/'"}

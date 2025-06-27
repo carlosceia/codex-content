@@ -1,0 +1,1 @@
+{"name":"radialGaugeWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/radial-gauge/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(radialGaugeWidgetDefinition)]"}

@@ -1,0 +1,1 @@
+{"name":"MEASUREMENTS_PREVIEW_ITEMS_LIMIT","ctype":"miscellaneous","subtype":"variable","file":"datapoints-export-selector/datapoints-export-selector.model.ts","deprecated":false,"deprecationMessage":"","type":"number","defaultValue":"5"}

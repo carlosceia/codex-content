@@ -1,0 +1,1 @@
+{"name":"AGGREGATION_ICON_TYPE","ctype":"miscellaneous","subtype":"variable","file":"global-context/aggregation-picker/aggregation.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  UNDEFINED: 'line-chart',\n  MINUTELY: 'hourglass',\n  HOURLY: 'clock-o',\n  DAILY: 'calendar-o'\n} as const"}

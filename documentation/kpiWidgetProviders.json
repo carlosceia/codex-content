@@ -1,0 +1,1 @@
+{"name":"kpiWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/kpi/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(kpiWidgetDefinition)]"}

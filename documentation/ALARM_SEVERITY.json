@@ -1,0 +1,1 @@
+{"name":"ALARM_SEVERITY","ctype":"miscellaneous","subtype":"variable","file":"device-protocol-object-mappings/default-object-mapping-types/index.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  WARNING: gettext('WARNING'),\n  MINOR: gettext('MINOR'),\n  MAJOR: gettext('MAJOR'),\n  CRITICAL: gettext('CRITICAL')\n}"}

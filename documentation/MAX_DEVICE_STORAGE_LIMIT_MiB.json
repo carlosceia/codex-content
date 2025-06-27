@@ -1,0 +1,1 @@
+{"name":"MAX_DEVICE_STORAGE_LIMIT_MiB","ctype":"miscellaneous","subtype":"variable","file":"tenants/tenant-limits/tenant-limits-definitions.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"Math.round(Number.MAX_SAFE_INTEGER / 1024 / 1024)"}

@@ -1,0 +1,1 @@
+{"name":"defaultPackageContents","ctype":"miscellaneous","subtype":"variable","file":"ecosystem/shared/list-filters/list-filters.model.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[\n  APP_STATE.PACKAGE_BLUEPRINT.label,\n  APP_STATE.PACKAGE_PLUGIN.label\n]"}

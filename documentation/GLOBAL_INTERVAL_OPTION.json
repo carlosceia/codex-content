@@ -1,0 +1,1 @@
+{"name":"GLOBAL_INTERVAL_OPTION","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/alarms/alarm-list-widget.model.ts","deprecated":false,"deprecationMessage":"","type":"AlarmListRefreshOption","defaultValue":"'global-interval'"}

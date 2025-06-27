@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card-header">
+      <p><code>{{name}}</code></p>
+    </div>
+    <div >
+      <div class="dot animated {{name}}"
+        [ngClass]="{'infinite': status}">
+        <i class="c8y-icon c8y-icon-cumulocity-iot"></i>
+      </div>
+    </div>
+    <div class="card-footer">
+      <button class="btn btn-xs"
+        (click)="status = !status">
+        <i class="dlt-c8y-icon"
+          [ngClass]="{'dlt-c8y-icon-play': !status, 'dlt-c8y-icon-pause': status}">
+        </i>
+      </button>
+    </div>
+  </div>

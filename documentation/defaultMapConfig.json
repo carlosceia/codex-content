@@ -1,0 +1,1 @@
+{"name":"defaultMapConfig","ctype":"miscellaneous","subtype":"variable","file":"map/map.model.ts","deprecated":false,"deprecationMessage":"","type":"MapDefaultConfig","defaultValue":"{\n  center: [51.23544, 6.79599], // Düsseldorf\n  zoomLevel: 2\n}"}

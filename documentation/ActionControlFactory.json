@@ -1,0 +1,1 @@
+{"name":"ActionControlFactory","ctype":"miscellaneous","subtype":"typealias","rawtype":"ExtensionFactory<ActionControlHook>","file":"core/data-grid/data-grid.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Factory to implement in order to add action controls from an extension.</p>\n","kind":183}

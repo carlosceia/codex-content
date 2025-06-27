@@ -1,0 +1,1 @@
+{"name":"HOOK_DEVICE_LIST_COLUMNS","ctype":"miscellaneous","subtype":"variable","file":"device-list/device-list-extension.service.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<GenericHookType<Column>>(\n  'HOOK_ALL_DEVICES_LIST_COLUMNS'\n)"}

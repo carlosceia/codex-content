@@ -1,0 +1,1 @@
+{"name":"DashboardChildrenState","ctype":"miscellaneous","subtype":"typealias","rawtype":"literal type","file":"context-dashboard/context-dashboard.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Object representing state of dashboard widgets. Its main purpose is to allow to undo and redo changes\napplied to dashboard children.</p>\n","kind":187}

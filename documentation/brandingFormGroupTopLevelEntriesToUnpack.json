@@ -1,0 +1,1 @@
+{"name":"brandingFormGroupTopLevelEntriesToUnpack","ctype":"miscellaneous","subtype":"variable","file":"branding/shared/data/branding.type.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"[\n  'genericApplicationOptions'\n] as const satisfies ReadonlyArray<(typeof brandingFormGroupTopLevelEntries)[number]>"}

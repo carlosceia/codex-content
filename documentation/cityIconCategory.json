@@ -1,0 +1,1 @@
+{"name":"cityIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/city/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('City`icons-category`'),\n  icons: cityIcons\n} as const"}

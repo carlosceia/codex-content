@@ -1,0 +1,1 @@
+{"name":"fieldbusTypes","ctype":"miscellaneous","subtype":"variable","file":"device-protocols/device-protocols.module.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[\n  'actility',\n  'canbus',\n  'canopen',\n  'lora',\n  'lpwan',\n  'modbus',\n  'opcua',\n  'profibus',\n  'sigfox',\n  'snmp'\n]"}

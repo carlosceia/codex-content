@@ -1,0 +1,1 @@
+{"name":"HOOK_OPTIONS","ctype":"miscellaneous","subtype":"variable","file":"core/common/options.service.ts","deprecated":true,"deprecationMessage":"Consider using the `hookOptions` function instead.","type":"","defaultValue":"new InjectionToken<ExtensionFactory<ApplicationOptions>>(\n  'HOOK_OPTIONS'\n)"}

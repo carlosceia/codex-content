@@ -1,0 +1,1 @@
+{"name":"markdownWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/markdown/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(markdownWidgetDefinition)]"}

@@ -1,0 +1,1 @@
+{"name":"DEVICE_SHELL_ROUTE","ctype":"miscellaneous","subtype":"variable","file":"device-shell/device-shell.module.ts","deprecated":false,"deprecationMessage":"","type":"Route","defaultValue":"{\n  path: 'shell',\n  context: ViewContext.Device,\n  component: DeviceShellComponent,\n  label: gettext('Shell'),\n  icon: 'terminal',\n  canActivate: [DeviceShellGuard]\n}"}

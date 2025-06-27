@@ -1,0 +1,1 @@
+{"name":"cache","ctype":"miscellaneous","subtype":"variable","file":"core/i18n/load-locale.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new Map()"}

@@ -1,0 +1,1 @@
+{"name":"serverError","ctype":"miscellaneous","subtype":"variable","file":"core/dynamic-component/dynamic-component-alert.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"gettext('Internal server error`50X server error`')"}

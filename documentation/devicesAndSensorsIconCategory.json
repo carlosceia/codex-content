@@ -1,0 +1,1 @@
+{"name":"devicesAndSensorsIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/devicesAndSensors/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Devices and sensors`icons-category`'),\n  icons: devicesAndSensorsIcons\n} as const"}

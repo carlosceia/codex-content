@@ -1,0 +1,1 @@
+{"name":"ARRAY_VALIDATION_PREFIX","ctype":"miscellaneous","subtype":"variable","file":"core/forms/validate-array-elements.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'INNER_ARRAY_ERROR_'"}

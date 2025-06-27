@@ -1,0 +1,1 @@
+{"name":"LoriotState","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"loadPending\" | \"loadSuccess\" | \"loadError\" | \"registrationPending\" | \"registrationSuccess\" | \"registrationError\"","file":"loriot-device-registration/loriot-device-registration.component.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

@@ -1,0 +1,1 @@
+{"name":"networkIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/network/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Network`icons-category`'),\n  icons: networkIcons\n} as const"}

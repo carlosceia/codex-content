@@ -1,0 +1,1 @@
+{"name":"CONTEXT_DASHBOARD_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"context-dashboard/context-dashboard.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<any>('ContextDashboardConfig')"}

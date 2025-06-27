@@ -1,0 +1,1 @@
+{"name":"UPGRADE_ROUTES","ctype":"miscellaneous","subtype":"variable","file":"upgrade/upgrade.routes.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[{ path: '**', component: EmptyComponent }]"}

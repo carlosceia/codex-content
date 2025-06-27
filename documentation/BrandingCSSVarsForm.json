@@ -1,0 +1,1 @@
+{"name":"BrandingCSSVarsForm","ctype":"miscellaneous","subtype":"typealias","rawtype":"Omit<BrandingFormValue | BrandingFormTopLevelKeys>","file":"branding/shared/data/branding.type.ts","deprecated":false,"deprecationMessage":"","description":"","kind":183}

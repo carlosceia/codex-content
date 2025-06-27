@@ -1,0 +1,1 @@
+{"name":"HOOK_FILTER_MAPPER","ctype":"miscellaneous","subtype":"variable","file":"core/data-grid/filter-chip/filter-mapper.factory.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<FilterMapperExtension>('HOOK_FILTER_MAPPER')"}

@@ -1,0 +1,1 @@
+{"name":"DEFAULT_SEVERITY_VALUES","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.model.ts","deprecated":false,"deprecationMessage":"","type":"SeverityFilter","defaultValue":"{\n  [Severity.CRITICAL]: true,\n  [Severity.MAJOR]: true,\n  [Severity.MINOR]: true,\n  [Severity.WARNING]: true\n}"}

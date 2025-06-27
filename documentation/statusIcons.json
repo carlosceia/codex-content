@@ -1,0 +1,1 @@
+{"name":"statusIcons","ctype":"miscellaneous","subtype":"variable","file":"core/common/status.model.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  [Status.SUCCESS]: 'check-circle',\n  [Status.WARNING]: 'exclamation-triangle',\n  [Status.DANGER]: 'exclamation-circle',\n  [Status.INFO]: 'info-circle'\n}"}

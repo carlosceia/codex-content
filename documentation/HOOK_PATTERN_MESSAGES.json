@@ -1,0 +1,1 @@
+{"name":"HOOK_PATTERN_MESSAGES","ctype":"miscellaneous","subtype":"variable","file":"core/i18n/patterns-message.hook.ts","deprecated":true,"deprecationMessage":"Consider using the `hookPatternMessages` function instead.","type":"","defaultValue":"new InjectionToken('HOOK_PATTERN_MESSAGES')"}

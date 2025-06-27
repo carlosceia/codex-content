@@ -1,0 +1,1 @@
+{"name":"NEEDED_ROLE_FOR_SETUP","ctype":"miscellaneous","subtype":"variable","file":"core/setup/setup.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'ROLE_APPLICATION_MANAGEMENT_ADMIN'"}

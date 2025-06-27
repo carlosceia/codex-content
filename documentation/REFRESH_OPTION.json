@@ -1,0 +1,1 @@
+{"name":"REFRESH_OPTION","ctype":"miscellaneous","subtype":"variable","file":"global-context/auto-refresh/auto-refresh.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  LIVE: 'live',\n  HISTORY: 'history'\n} as const"}

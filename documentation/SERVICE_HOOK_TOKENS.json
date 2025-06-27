@@ -1,0 +1,1 @@
+{"name":"SERVICE_HOOK_TOKENS","ctype":"miscellaneous","subtype":"variable","file":"core/common/service-registry.service.ts","deprecated":false,"deprecationMessage":"","type":"Map<CumulocityServiceRegistry.ExtensionKeys, InjectionToken<any>>","defaultValue":"new Map()"}

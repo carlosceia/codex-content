@@ -1,0 +1,1 @@
+{"name":"typeaheadTypeConfig","ctype":"miscellaneous","subtype":"variable","file":"core/dynamic-forms/typeahead/typeahead.type.component.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"(): EnvironmentProviders =>\n  importProvidersFrom(\n    FormlyModule.forChild({\n      types: [{ name: 'typeahead', component: TypeaheadTypeComponent }]\n    })\n  )"}

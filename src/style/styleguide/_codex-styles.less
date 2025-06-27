@@ -1,0 +1,38 @@
+// smaller icons on navigator while on development
+
+.navigatorContent .children .icon {
+  font-size: 14px;
+  // display: none;
+  &[class*='dlt-c8y-icon-clock11'], &[class*='dlt-c8y-icon-done'] {
+    opacity: 0;
+  }
+}
+
+// grid to show in example
+.show-grid {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  &:not(.show-grid--no-col-padding){
+    [class*='col-']{
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+  [class*='col-'],
+  > p {
+    min-height: 40px;
+    box-shadow: inset 0 0 1px var(--c8y-brand-accent);
+    background-color: var(--c8y-brand-accent-light);
+    text-align: center;
+  }
+  > p {
+    min-height: unset;
+    padding: 1rem;
+  }
+}
+
+.codex-set-height{
+  >*{
+    min-height: var(--min-height);
+  }
+}

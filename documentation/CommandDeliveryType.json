@@ -1,0 +1,1 @@
+{"name":"CommandDeliveryType","childs":[{"name":"DEFAULT","deprecated":false,"deprecationMessage":"","value":"Default"},{"name":"SMS","deprecated":false,"deprecationMessage":"","value":"SMS"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"device-shell/shared/device-shell.model.ts"}

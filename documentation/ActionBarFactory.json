@@ -1,0 +1,1 @@
+{"name":"ActionBarFactory","ctype":"miscellaneous","subtype":"typealias","rawtype":"ExtensionFactory<ActionBarItem>","file":"core/action-bar/action-bar.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Factory to implement if used in a hook for Multi Provider extension.</p>\n","kind":183}

@@ -1,0 +1,1 @@
+{"name":"getViewContextRoutes","file":"alarms/alarms.helper.ts","ctype":"miscellaneous","subtype":"function","deprecated":false,"deprecationMessage":"","description":"","args":[{"name":"contexts","deprecated":false,"deprecationMessage":""}],"returnType":"Routes","jsdoctags":[{"name":"contexts","deprecated":false,"deprecationMessage":"","tagName":{"text":"param"}}]}

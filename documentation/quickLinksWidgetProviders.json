@@ -1,0 +1,1 @@
+{"name":"quickLinksWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/quick-links/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(quickLinksWidgetDefinition)]"}

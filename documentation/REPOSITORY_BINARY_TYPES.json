@@ -1,0 +1,1 @@
+{"name":"REPOSITORY_BINARY_TYPES","ctype":"miscellaneous","subtype":"variable","file":"repository/shared/repository.model.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  [RepositoryType.SOFTWARE]: 'c8y_SoftwareBinary',\n  [RepositoryType.FIRMWARE]: 'c8y_FirmwareBinary',\n  [RepositoryType.CONFIGURATION]: 'c8y_ConfigurationDumpBinary'\n}"}

@@ -1,0 +1,1 @@
+{"name":"OmitSelectorProperties","ctype":"miscellaneous","subtype":"typealias","rawtype":"literal type","file":"alarm-event-selector/alarm-event-selector.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>The configuration for the alarms-events selector modal if some properties should be omitted.</p>\n","kind":187}

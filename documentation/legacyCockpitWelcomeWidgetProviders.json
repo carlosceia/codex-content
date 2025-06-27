@@ -1,0 +1,1 @@
+{"name":"legacyCockpitWelcomeWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/cockpit-legacy-welcome/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[\n  hookWidget(legacyCockpitWelcomeWidgetDefinition)\n]"}

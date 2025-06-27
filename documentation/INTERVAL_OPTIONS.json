@@ -1,0 +1,1 @@
+{"name":"INTERVAL_OPTIONS","ctype":"miscellaneous","subtype":"variable","file":"core/time-interval/time-interval.model.ts","deprecated":false,"deprecationMessage":"","type":"TimeIntervalOption[]","defaultValue":"[\n  LAST_MINUTE,\n  LAST_HOUR,\n  LAST_DAY,\n  LAST_WEEK,\n  LAST_MONTH,\n  CUSTOM\n]"}

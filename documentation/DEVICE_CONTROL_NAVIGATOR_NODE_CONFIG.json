@@ -1,0 +1,1 @@
+{"name":"DEVICE_CONTROL_NAVIGATOR_NODE_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"operations/shared/nav.factory.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<Partial<NavigatorNode>>(\n  'DEVICE_CONTROL_NAVIGATOR_NODE_CONFIG'\n)"}

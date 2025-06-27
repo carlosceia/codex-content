@@ -1,0 +1,1 @@
+{"name":"APPLICATIONS_BASE_PATH","ctype":"miscellaneous","subtype":"variable","file":"ecosystem/application-properties/application-properties.component.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'/ecosystem/application/applications'"}

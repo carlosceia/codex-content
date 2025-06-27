@@ -1,0 +1,1 @@
+{"name":"LOCALE_PATH","ctype":"miscellaneous","subtype":"variable","file":"core/i18n/locale.path.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken('Locale path')"}

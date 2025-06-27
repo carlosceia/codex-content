@@ -1,0 +1,1 @@
+{"name":"absoluteDateServiceProvider","ctype":"miscellaneous","subtype":"variable","file":"upgrade/absolute-date.service.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  provide: AbsoluteDateService,\n  useFactory: absoluteDateServiceFactory,\n  deps: [DatePipe]\n}"}

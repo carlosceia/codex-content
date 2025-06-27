@@ -1,0 +1,1 @@
+{"name":"minColumnGridTrackSize","ctype":"miscellaneous","subtype":"variable","file":"core/data-grid/data-grid.model.ts","deprecated":false,"deprecationMessage":"","type":"number","defaultValue":"80"}

@@ -1,0 +1,1 @@
+{"name":"ASSET_NAVIGATOR_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"assets-navigator/asset-node-config.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<AssetNavigatorConfig>('AssetNodeConfig')"}

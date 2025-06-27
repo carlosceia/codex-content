@@ -1,0 +1,1 @@
+{"name":"MapTenantOptionKeys","childs":[{"name":"CONFIG","deprecated":false,"deprecationMessage":"","value":"map-config"},{"name":"LAYERS","deprecated":false,"deprecationMessage":"","value":"map-layers"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"map/map.model.ts"}

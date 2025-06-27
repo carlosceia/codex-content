@@ -1,0 +1,1 @@
+{"name":"NAME_OPCUA","ctype":"miscellaneous","subtype":"variable","file":"protocol-opcua/ng1/index.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'c8y.upgrade.opcua'"}

@@ -1,0 +1,1 @@
+{"name":"WIDGET_DISPLAY_MODE","ctype":"miscellaneous","subtype":"variable","file":"global-context/global-context.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{ INLINE: 'inline', CONFIG: 'config' } as const"}

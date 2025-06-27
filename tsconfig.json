@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib/esm2015",
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "exclude": ["node_modules", "**/*.d.ts", "src/**/*.spec.ts", "src/test"]
+}

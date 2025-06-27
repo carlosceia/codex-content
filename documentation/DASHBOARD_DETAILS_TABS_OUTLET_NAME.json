@@ -1,0 +1,1 @@
+{"name":"DASHBOARD_DETAILS_TABS_OUTLET_NAME","ctype":"miscellaneous","subtype":"variable","file":"context-dashboard/context-dashboard.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"'dashboardTabs' as const"}

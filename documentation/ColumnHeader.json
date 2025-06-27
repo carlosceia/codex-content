@@ -1,0 +1,1 @@
+{"name":"ColumnHeader","ctype":"miscellaneous","subtype":"typealias","rawtype":"string","file":"datapoints-export-selector/datapoints-export-selector.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Represents a merged export column header,\ne.g. &#39;Temperature - 5 -&gt; c8y_Temperature.T [ºC] (max)&#39;</p>\n","kind":154}

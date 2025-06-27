@@ -1,0 +1,1 @@
+{"name":"DateType","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"DateAndTime\" | \"Date\" | \"DateRange\" | \"SingleDateRequired\" | \"Time\"","file":"core/date-time-picker/date-time-picker.component.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

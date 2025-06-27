@@ -1,0 +1,1 @@
+{"name":"brandingFormGroupTopLevelEntries","ctype":"miscellaneous","subtype":"variable","file":"branding/shared/data/branding.type.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"[\n  'cookieBanner',\n  'genericApplicationOptions',\n  'darkThemeAvailable',\n  'messageBanner'\n] as const satisfies ReadonlyArray<BrandingFormKeys>"}

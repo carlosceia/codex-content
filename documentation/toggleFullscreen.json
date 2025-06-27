@@ -1,0 +1,1 @@
+{"name":"toggleFullscreen","file":"sub-assets/fullscreen.util.ts","ctype":"miscellaneous","subtype":"function","deprecated":false,"deprecationMessage":"","description":"","args":[{"name":"element","type":"","deprecated":false,"deprecationMessage":""}],"jsdoctags":[{"name":"element","type":"","deprecated":false,"deprecationMessage":"","tagName":{"text":"param"}}]}

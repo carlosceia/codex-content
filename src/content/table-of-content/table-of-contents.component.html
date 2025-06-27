@@ -1,0 +1,14 @@
+<nav
+  class="c8y-table-of-contents-list"
+  *ngIf="headings"
+>
+  <a
+    class="c8y-table-of-contents-list-item"
+    *ngFor="let heading of headings"
+    [ngClass]="{ active: heading.id === activeSection }"
+    [routerLink]="['./']"
+    [fragment]="heading.id"
+  >
+    {{ heading.innerText }}
+  </a>
+</nav>

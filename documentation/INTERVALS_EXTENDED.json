@@ -1,0 +1,1 @@
+{"name":"INTERVALS_EXTENDED","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.model.ts","deprecated":false,"deprecationMessage":"","type":"AlarmFilterInterval[]","defaultValue":"[\n  {\n    id: 'none',\n    title: gettext('No date filter')\n  },\n  ...INTERVALS\n]"}

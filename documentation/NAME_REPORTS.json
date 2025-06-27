@@ -1,0 +1,1 @@
+{"name":"NAME_REPORTS","ctype":"miscellaneous","subtype":"variable","file":"reports/ng1/index.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'c8y.upgrade.reports'"}

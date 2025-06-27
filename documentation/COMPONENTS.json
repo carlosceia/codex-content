@@ -1,0 +1,1 @@
+{"name":"COMPONENTS","ctype":"miscellaneous","subtype":"variable","file":"operations/product-experience/operations-product-experience.constants.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  OPERATION_DETAILS: 'operation-details',\n  SINGLE_OPERATION_ITEM: 'single-operation-item'\n} as const"}

@@ -1,0 +1,1 @@
+{"name":"TIME_INTERVAL","ctype":"miscellaneous","subtype":"variable","file":"global-context/interval-picker/interval-picker.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  NONE: 'none',\n  MINUTES: 'minutes',\n  HOURS: 'hours',\n  DAYS: 'days',\n  WEEKS: 'weeks',\n  MONTHS: 'months',\n  CUSTOM: 'custom'\n} as const"}

@@ -1,0 +1,1 @@
+{"name":"ALARMS_PATH","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'alarms'"}

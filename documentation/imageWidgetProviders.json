@@ -1,0 +1,1 @@
+{"name":"imageWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/image/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(imageWidgetDefinition)]"}

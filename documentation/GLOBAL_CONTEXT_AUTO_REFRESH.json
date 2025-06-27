@@ -1,0 +1,1 @@
+{"name":"GLOBAL_CONTEXT_AUTO_REFRESH","ctype":"miscellaneous","subtype":"variable","file":"core/dashboard/widget-auto-refresh-context/widget-auto-refresh-context.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'globalContextAutoRefresh'"}

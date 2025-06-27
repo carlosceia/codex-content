@@ -1,0 +1,1 @@
+{"name":"TENANTS_MODULE_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"tenants/tenants.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<TenantsModuleConfig>('TenantsModuleConfig')"}

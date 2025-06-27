@@ -1,0 +1,1 @@
+{"name":"RENDER_TYPES_LABELS","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/datapoints-table/datapoints-table-widget.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  min: gettext('Minimum') as 'Minimum',\n  max: gettext('Maximum') as 'Maximum',\n  area: gettext('Area') as 'Area'\n} as const"}

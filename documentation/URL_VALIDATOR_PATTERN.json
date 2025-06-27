@@ -1,0 +1,1 @@
+{"name":"URL_VALIDATOR_PATTERN","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/quick-links/quick-links.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"ValidationPattern.rules.quickLinkUrl.pattern"}

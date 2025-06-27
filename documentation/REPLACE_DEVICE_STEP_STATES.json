@@ -1,0 +1,1 @@
+{"name":"REPLACE_DEVICE_STEP_STATES","ctype":"miscellaneous","subtype":"variable","file":"replace-device/replace-device-wizard/replace-device-wizard.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"<const>[\n  'Pending',\n  'Executing',\n  'Skipped',\n  'Failed',\n  'Successful'\n]"}

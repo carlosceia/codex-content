@@ -1,0 +1,1 @@
+{"name":"DEFAULT_DPT_REFRESH_INTERVAL_VALUE","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/datapoints-table/datapoints-table-widget.model.ts","deprecated":false,"deprecationMessage":"","type":"number","defaultValue":"30_000"}

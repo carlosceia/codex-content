@@ -1,0 +1,1 @@
+{"name":"COCKPIT_CONFIG_PATH","ctype":"miscellaneous","subtype":"variable","file":"cockpit-config/cockpit-config.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'cockpit-application-configuration'"}

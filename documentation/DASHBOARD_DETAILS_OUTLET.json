@@ -1,0 +1,1 @@
+{"name":"DASHBOARD_DETAILS_OUTLET","ctype":"miscellaneous","subtype":"variable","file":"context-dashboard/context-dashboard.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"'dashboard-details' as const"}

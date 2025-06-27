@@ -1,0 +1,1 @@
+{"name":"DatapointsGraphWidgetTimeProps","ctype":"miscellaneous","subtype":"typealias","rawtype":"Partial<Pick<DatapointsGraphWidgetConfig, \"interval\" | \"dateFrom\" | \"dateTo\" | \"aggregation\" | \"realtime\">>","file":"echart/models/datapoints-graph-widget.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":183}

@@ -1,0 +1,1 @@
+{"name":"HOOK_CURRENT_USER","ctype":"miscellaneous","subtype":"variable","file":"core/common/ui-state.service.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<IUser>('HOOK_CURRENT_USER')"}

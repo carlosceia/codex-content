@@ -1,0 +1,1 @@
+{"name":"HOOK_PLUGIN","ctype":"miscellaneous","subtype":"variable","file":"core/plugins/plugins-loader.service.ts","deprecated":true,"deprecationMessage":"Only meant for internal usage.","type":"","defaultValue":"new InjectionToken<any>('HOOK_PLUGIN')"}

@@ -1,0 +1,1 @@
+{"name":"UserStatusPartial","ctype":"miscellaneous","subtype":"typealias","rawtype":"Required<Pick<IUser, \"id\" | \"enabled\">>","file":"data-broker/model/data-broker.subscription.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":183}

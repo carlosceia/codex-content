@@ -1,0 +1,1 @@
+{"name":"defaultConfig","ctype":"miscellaneous","subtype":"variable","file":"context-dashboard/context-dashboard.module.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  allowFullscreen: true\n} as const satisfies ContextDashboardConfig"}

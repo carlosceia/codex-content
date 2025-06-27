@@ -1,0 +1,1 @@
+{"name":"SupportedApps","ctype":"miscellaneous","subtype":"variable","file":"core/common/inter-app.service.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  devicemanagement: 'devicemanagement-application-key',\n  cockpit: 'cockpit-application-key',\n  administration: 'administration-application-key',\n  smartrules: 'smartrule-key'\n} as const"}

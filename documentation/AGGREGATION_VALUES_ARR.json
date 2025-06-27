@@ -1,0 +1,1 @@
+{"name":"AGGREGATION_VALUES_ARR","ctype":"miscellaneous","subtype":"variable","file":"global-context/aggregation-picker/aggregation.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"[\n  AGGREGATION_VALUES.none,\n  AGGREGATION_VALUES.minutely,\n  AGGREGATION_VALUES.hourly,\n  AGGREGATION_VALUES.daily\n] as const"}

@@ -1,0 +1,1 @@
+{"name":"ASSET_PATH","childs":[{"name":"DEFAULT","deprecated":false,"deprecationMessage":"","value":"group"},{"name":"DEVICE","deprecated":false,"deprecationMessage":"","value":"device"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"<p>Enumerates the supported asset paths.</p>\n","file":"core/common/group.service.ts"}

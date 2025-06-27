@@ -1,0 +1,1 @@
+{"name":"todayDate","ctype":"miscellaneous","subtype":"variable","file":"global-context/interval-picker/interval-picker.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new Date()"}

@@ -1,0 +1,1 @@
+{"name":"CUMULOCITY_JSON","ctype":"miscellaneous","subtype":"variable","file":"ecosystem/shared/ecosystem.service.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'cumulocity.json'"}

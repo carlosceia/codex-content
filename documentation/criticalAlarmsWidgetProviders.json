@@ -1,0 +1,1 @@
+{"name":"criticalAlarmsWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/alarms/all-critical-alarms/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(criticalAlarmsWidgetDefinition)]"}

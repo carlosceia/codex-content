@@ -1,0 +1,1 @@
+{"name":"tenantLimitsCustomProperties","ctype":"miscellaneous","subtype":"variable","file":"tenants/tenant-limits/tenant-limits-definitions.ts","deprecated":false,"deprecationMessage":"","type":"TenantLimit","defaultValue":"tenantLimitsCustomPropertiesDefinition"}

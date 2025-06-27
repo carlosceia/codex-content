@@ -1,0 +1,1 @@
+{"name":"RouteFactory","ctype":"miscellaneous","subtype":"typealias","rawtype":"Route | Route[] | ExtensionFactory<Route>","file":"core/router/router.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

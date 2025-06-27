@@ -1,0 +1,1 @@
+{"name":"SearchFactory","ctype":"miscellaneous","subtype":"typealias","rawtype":"ExtensionFactory<Search>","file":"core/search/search.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Factory to implement if used in a hook for Multi Provider extension.</p>\n","kind":183}

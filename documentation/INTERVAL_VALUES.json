@@ -1,0 +1,1 @@
+{"name":"INTERVAL_VALUES","ctype":"miscellaneous","subtype":"variable","file":"interval-picker/interval-picker.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"Object.keys(INTERVAL_TITLES).reduce(\n  (acc, key) => ({\n    ...acc,\n    [key]: key\n  }),\n  {} as IntervalMap\n)"}

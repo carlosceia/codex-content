@@ -1,0 +1,1 @@
+{"name":"SINGLE_OPERATIONS_TAB_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"operations/operations-list/single-operations-tab.factory.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<Partial<Tab>>(\r\n  'SINGLE_OPERATIONS_TAB_CONFIG'\r\n)"}

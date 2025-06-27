@@ -1,0 +1,1 @@
+{"name":"recentAlarmsWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/alarms/recent-alarms/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(recentAlarmsDefinition)]"}

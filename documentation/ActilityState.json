@@ -1,0 +1,1 @@
+{"name":"ActilityState","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"loadPending\" | \"loadSuccess\" | \"loadError\" | \"registrationPending\" | \"registrationSuccess\" | \"registrationError\"","file":"actility-device-registration/actility-device-registration.component.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

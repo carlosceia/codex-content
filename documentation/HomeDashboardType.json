@@ -1,0 +1,1 @@
+{"name":"HomeDashboardType","childs":[{"name":"DEFAULT","deprecated":false,"deprecationMessage":""},{"name":"APP","deprecated":false,"deprecationMessage":""},{"name":"USER","deprecated":false,"deprecationMessage":""}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"cockpit-config/cockpit-config.model.ts"}

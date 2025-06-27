@@ -1,0 +1,1 @@
+{"name":"validateInternationalPhoneNumber","file":"core/forms/phone-validation.directive.ts","ctype":"miscellaneous","subtype":"function","deprecated":false,"deprecationMessage":"","description":"","args":[],"returnType":"ValidatorFn"}

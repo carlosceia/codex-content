@@ -1,0 +1,84 @@
+<div *ngIf="!contrastOnly" >
+  <div class="p-t-8 p-b-8 p-l-16 p-r-16">
+    <p class="text-14 text-bold text-tabular">
+      {{ name }}
+    </p>
+  </div>
+  <div class="d-col" [ngClass]="{ 'show-themes': showThemes }">
+    <div class="color-tip__details">
+      <div
+        class="color-tip__color"
+        [ngClass]="{ 'separator-top': showThemes }"
+        [ngStyle]="{ 'background-color': codeLight }"
+      ></div>
+      <div class="color-tip__info" [ngStyle]="{ 'color': colorLight }">
+        <p class="text-label-small m-b-24 color-inherit m-b-auto" [ngStyle]="{ 'color': colorLight }"*ngIf="showThemes">Light theme</p>
+        <div>
+          <small>
+            Ref/value
+          </small>
+          <code class="text-10">
+            {{ refColorLight ? refColorLight : codeLight.replace('var(', '').replace(')', '') }}
+          </code>
+        </div>
+        <div *ngIf="showThemes">
+          <small>
+            WCAG 2.1 AA
+          </small>
+          <span
+            class="label"
+            [ngClass]="statusLightClass"
+          >
+            <strong>{{ ratioLight }}</strong>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="color-tip__details " *ngIf="showThemes">
+      <div
+        class="color-tip__color separator-top"
+        [ngStyle]="{ 'background-color': codeDark }"
+      ></div>
+      <div class="color-tip__info" [ngStyle]="{ 'color': colorDark }">
+        <p class="text-label-small m-b-24 color-inherit m-b-auto" [ngStyle]="{ 'color': colorDark }" *ngIf="showThemes">Dark theme</p>
+        <div>
+          <small>
+            Ref/value
+          </small>
+          <code class="text-10">
+            {{ refColorDark ? refColorDark : codeDark.replace('var(', '').replace(')', '') }}
+          </code>
+        </div>
+          <div>
+            <small>
+              WCAG 2.1 AA
+            </small>
+          <span
+          class="label"
+          [ngClass]="statusDarkClass"
+          >
+          <strong>{{ ratioDark }}</strong>
+        </span>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div *ngIf="contrastOnly" class="d-flex a-i-center">
+  <span
+    *ngIf="codeLight"
+    class="label"
+    [ngClass]="statusLightClass"
+  >
+    <strong>{{ ratioLight }}</strong>
+  </span>
+  <span
+    *ngIf="codeDark"
+    class="label"
+    [ngClass]="statusDarkClass"
+  >
+    <strong>{{ ratioDark }}</strong>
+  </span>
+</div>

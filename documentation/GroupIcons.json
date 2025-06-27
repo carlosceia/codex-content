@@ -1,0 +1,1 @@
+{"name":"GroupIcons","ctype":"miscellaneous","subtype":"typealias","rawtype":"Partial<Record<MoTypes, GroupIcon>>","file":"core/common/group.service.ts","deprecated":false,"deprecationMessage":"","description":"","kind":183}

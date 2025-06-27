@@ -1,0 +1,1 @@
+{"name":"TargetObjectArray","ctype":"miscellaneous","subtype":"typealias","rawtype":"WithTarget[]","file":"widgets/import-export-config/target-import-export-types.ts","deprecated":false,"deprecationMessage":"","description":"<p>Helper type to identify arrays of objects with __target property</p>\n","kind":188}

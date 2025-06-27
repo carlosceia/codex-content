@@ -1,0 +1,1 @@
+{"name":"MESSAGING_MANAGEMENT_MICROSERVICE_NAME","ctype":"miscellaneous","subtype":"variable","file":"messaging-management/constants.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'messaging-management'"}

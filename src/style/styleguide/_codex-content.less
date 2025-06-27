@@ -1,0 +1,178 @@
+.codex-content {
+  margin: 0;
+  padding: 32px 16px 64px;
+}
+
+.codex-content,
+.codex-content > .row > .col-md-6 {
+  > h2 {
+    margin-bottom: 24px;
+    padding-top: 64px;
+    position: relative;
+    .has-tabs & {
+      // Do we really need this?
+      padding-top: 112px;
+    }
+    &:hover {
+      .showOnHover {
+        opacity: 1;
+      }
+    }
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+  > h3 {
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
+  > h4 {
+    margin-bottom: 16px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  > p,
+  > .d-contents > p,
+  > ul,
+  > .d-contents > ul,
+  > ol,
+  > .d-contents > ol {
+    max-width: 750px;
+    &:not(.lead) {
+      margin-bottom: @margin-16;
+      font-size: 16px;
+    }
+  }
+  > ul,
+  > ol {
+    padding-left: 16px;
+  }
+  > p:has(codex-tutorial-example),
+  > p:has(codex-icon) {
+    max-width: 100%;
+  }
+  > p + pre:not(:last-child) {
+    margin-bottom: 32px !important;
+  }
+  > table {
+    margin-bottom: @margin-16;
+    .table();
+    border-radius: 4px;
+  }
+  > pre {
+    margin-bottom: @margin-24;
+    border-radius: @margin-4;
+    padding: 16px;
+    background-color: #2b2b2b !important;
+  }
+  > ul li:not(.list-group-item),
+  > ol li:not(.list-group-item) {
+    margin-bottom: @margin-base;
+  }
+
+  > p:first-child {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .lead:empty {
+    display: none;
+  }
+  > blockquote {
+    margin: @margin-24 0 @margin-40;
+    padding: @margin-24;
+    max-width: 750px;
+    border: 0;
+    border-left: 4px solid var(--c8y-brand-accent);
+    background-color: var(--c8y-brand-accent-light);
+    color: var(--c8y-palette-low);
+    font-size: @font-size-base;
+    box-shadow: var(--c8y-elevation-sm);
+    h3,
+    h4 {
+      font-size: var(--c8y-font-size-h4);
+      margin-top: 0;
+      margin-bottom: 16px;
+      color: var(--c8y-brand-accent-dark);
+    }
+    code {
+      font-size: 87%;
+    }
+  }
+  > ul > li > code,
+  > ol > li > code,
+  > p > code {
+    font-size: 87%;
+  }
+  > pre {
+    margin: 4px 0 16px !important;
+  }
+}
+
+.hljs {
+  &:empty {
+    display: none;
+  }
+}
+
+p > code.hljs {
+  display: inline;
+  margin: 0;
+  padding: 0 0.2em;
+  background-color: @code-background;
+  color: @code-color;
+  > span {
+    color: currentColor;
+  }
+}
+pre:has(.hljs:empty) {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  code {
+    font-size: inherit;
+  }
+}
+
+// Check if we still need this
+.c8y-callout {
+  position: relative;
+  margin: 20px 0;
+  padding: 24px 24px 24px 60px;
+  border: 2px solid @status-info;
+  border-radius: 4px;
+  .lighten(@status-info, 0.8);
+  color: @text-color;
+  h4 {
+    margin: 10px 0;
+  }
+  &::before {
+    position: absolute;
+    left: 20px;
+    display: inline-block;
+    color: @status-info;
+    content: @dlt-c8y-icon-info;
+    font: normal normal normal 14px/1 @icon-font-family;
+    font-size: 36px;
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+section.c8y-callout {
+  h4 {
+    margin: 10px 0 !important;
+  }
+  ul {
+    padding-left: 16px;
+  }
+}

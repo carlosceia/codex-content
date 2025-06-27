@@ -1,0 +1,1 @@
+{"name":"threeDRotationWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/three-d-rotation/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(threeDRotationWidgetDefinition)]"}

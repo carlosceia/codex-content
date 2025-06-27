@@ -1,0 +1,1 @@
+{"name":"filesAndFoldersIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/filesAndFolders/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Files and folders`icons-category`'),\n  icons: filesAndFoldersIcons\n} as const"}

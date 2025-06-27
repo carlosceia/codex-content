@@ -1,0 +1,1 @@
+{"name":"DEFAULT_STATUS_VALUES","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.model.ts","deprecated":false,"deprecationMessage":"","type":"AlarmStatusSettings","defaultValue":"{\n  [AlarmStatus.ACTIVE]: true,\n  [AlarmStatus.ACKNOWLEDGED]: true,\n  [AlarmStatus.CLEARED]: true\n}"}

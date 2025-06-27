@@ -1,0 +1,1 @@
+{"name":"DEFAULT_REVERT_TO_DASHBOARD","ctype":"miscellaneous","subtype":"variable","file":"context-dashboard/dashboard-detail.service.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"() => {\n  throw new Error('revertToDashboard Not implemented');\n}"}

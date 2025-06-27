@@ -1,0 +1,1 @@
+{"name":"QUICK_LINKS_DEVICE_MANAGEMENT_ID","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/quick-links/quick-links.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"defaultWidgetIds.DEVICE_MANAGEMENT_WELCOME"}

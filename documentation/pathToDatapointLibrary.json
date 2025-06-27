@@ -1,0 +1,1 @@
+{"name":"pathToDatapointLibrary","ctype":"miscellaneous","subtype":"variable","file":"datapoint-library/model/index.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'datapointlibrary'"}

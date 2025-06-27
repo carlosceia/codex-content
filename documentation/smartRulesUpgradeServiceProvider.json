@@ -1,0 +1,1 @@
+{"name":"smartRulesUpgradeServiceProvider","ctype":"miscellaneous","subtype":"variable","file":"alarms/ng1-smart-rules-upgrade.service.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  provide: Ng1SmartRulesUpgradeService,\n  useFactory: SmartRulesUpgradeServiceFactory,\n  deps: ['$injector']\n}"}

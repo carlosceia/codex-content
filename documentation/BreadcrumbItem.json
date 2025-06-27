@@ -1,0 +1,1 @@
+{"name":"BreadcrumbItem","ctype":"miscellaneous","subtype":"typealias","rawtype":"BreadcrumbItemWithComponent | BreadcrumbItemWithLabel","file":"core/breadcrumb/breadcrumb.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>A crumb of the breadcrumb.</p>\n","kind":192}

@@ -1,0 +1,1 @@
+{"name":"ALARM_STATUS_ICON","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  ALERT_IDLE: 'c8y-alert-idle',\n  BELL_SLASH: 'bell-slash',\n  BELL: 'bell'\n} as const"}

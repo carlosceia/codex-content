@@ -1,0 +1,1 @@
+{"name":"alarmListWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/alarms/alarm-list/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(alarmListWidgetDefinition)]"}

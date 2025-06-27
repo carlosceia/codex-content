@@ -1,0 +1,1 @@
+{"name":"GlobalContextEventUnion","ctype":"miscellaneous","subtype":"typealias","rawtype":"","file":"global-context/global-context.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Union type of all possible global context events</p>\n","kind":199}

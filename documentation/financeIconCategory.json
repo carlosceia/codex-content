@@ -1,0 +1,1 @@
+{"name":"financeIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/finance/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Finance`icons-category`'),\n  icons: financeIcons\n} as const"}

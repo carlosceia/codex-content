@@ -1,0 +1,1 @@
+{"name":"locationIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/location/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Location`icons-category`'),\n  icons: locationIcons\n} as const"}

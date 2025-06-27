@@ -1,0 +1,1 @@
+{"name":"SERVICE_FRAGMENT","ctype":"miscellaneous","subtype":"variable","file":"services/shared/services.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'c8y_Service'"}

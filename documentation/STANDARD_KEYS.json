@@ -1,0 +1,1 @@
+{"name":"STANDARD_KEYS","ctype":"miscellaneous","subtype":"variable","file":"operations/shared/operations.model.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  failureReason: gettext('Failure reason'),\n  description: gettext('Description'),\n  status: gettext('Status')\n}"}

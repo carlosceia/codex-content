@@ -1,0 +1,1 @@
+{"name":"DATAPOINT_LIBRARY_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"datapoint-library/model/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<DatapointLibraryOptions>(\n  'DatapointLibraryOptions'\n)"}

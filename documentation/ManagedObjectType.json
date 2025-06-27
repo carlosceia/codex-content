@@ -1,0 +1,1 @@
+{"name":"ManagedObjectType","childs":[{"name":"DEVICE","deprecated":false,"deprecationMessage":"","value":"device"},{"name":"GROUP","deprecated":false,"deprecationMessage":"","value":"group"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"core/common/managed-object-type.ts"}

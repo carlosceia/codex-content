@@ -1,0 +1,1 @@
+{"name":"AlgorithmType","childs":[{"name":"PCKS","deprecated":false,"deprecationMessage":"","value":"PCKS"},{"name":"RSA","deprecated":false,"deprecationMessage":"","value":"RSA"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"auth-configuration/sso-configuration/template-parts/signature-configuration.model.ts"}

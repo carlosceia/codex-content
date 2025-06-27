@@ -1,0 +1,1 @@
+{"name":"defaultFilters","ctype":"miscellaneous","subtype":"variable","file":"tenants/custom-properties/custom-properties.service.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  query: \"(type eq 'c8y_JsonSchema') and (appliesTo.TENANTS eq true)\",\n  pageSize: 1000,\n  withTotalPages: true\n}"}

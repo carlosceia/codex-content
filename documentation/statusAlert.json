@@ -1,0 +1,1 @@
+{"name":"statusAlert","ctype":"miscellaneous","subtype":"variable","file":"core/common/status.model.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  [Status.SUCCESS]: `alert-${Status.SUCCESS}`,\n  [Status.WARNING]: `alert-${Status.WARNING}`,\n  [Status.DANGER]: `alert-${Status.DANGER}`,\n  [Status.INFO]: `alert-${Status.INFO}`\n}"}

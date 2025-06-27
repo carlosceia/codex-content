@@ -1,0 +1,1 @@
+{"name":"AggregationOptionStatus","ctype":"miscellaneous","subtype":"typealias","rawtype":"","file":"global-context/aggregation-picker/aggregation.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Represents the status of aggregation options.\nUsed to determine which aggregation options should be disabled.</p>\n","kind":200}

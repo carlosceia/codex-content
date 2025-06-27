@@ -1,0 +1,1 @@
+{"name":"MAX_PAGE_SIZE","ctype":"miscellaneous","subtype":"variable","file":"core/common/common.constants.ts","deprecated":false,"deprecationMessage":"","type":"number","defaultValue":"2000","rawdescription":"The maximum pageSize used in API queries to c8y.","description":"<p>The maximum pageSize used in API queries to c8y.</p>\n"}

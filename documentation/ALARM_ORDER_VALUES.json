@@ -1,0 +1,1 @@
+{"name":"ALARM_ORDER_VALUES","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/alarms/alarm-list-widget.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  BY_ACTIVE: 'BY_ACTIVE',\n  BY_DATE_ASCENDING: 'BY_DATE_ASCENDING',\n  BY_DATE_DESCENDING: 'BY_DATE_DESCENDING',\n  BY_SEVERITY: 'BY_SEVERITY'\n} as const"}

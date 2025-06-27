@@ -1,0 +1,1 @@
+{"name":"VERSION_MODULE_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"core/version/version.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<VersionModuleConfig>(\n  'VERSION_MODULE_CONFIG'\n)"}

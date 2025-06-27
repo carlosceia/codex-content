@@ -1,0 +1,1 @@
+{"name":"DatapointSelectorModalOptions","ctype":"miscellaneous","subtype":"typealias","rawtype":"Omit<DatapointSelectorModalComponent | \"result\" | \"saveChanges\" | \"close\" | \"selectionChange\">","file":"datapoint-selector/datapoint-selector-modal/datapoint-selector-modal.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":183}

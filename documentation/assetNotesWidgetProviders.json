@@ -1,0 +1,1 @@
+{"name":"assetNotesWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/asset-notes/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(assetNotesWidgetDefinition)]"}

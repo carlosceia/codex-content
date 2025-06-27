@@ -1,0 +1,1 @@
+{"name":"downloadEmitter","ctype":"miscellaneous","subtype":"variable","file":"file-preview/file-preview.module.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new EventEmitter<string>()"}

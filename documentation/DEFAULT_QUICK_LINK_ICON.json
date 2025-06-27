@@ -1,0 +1,1 @@
+{"name":"DEFAULT_QUICK_LINK_ICON","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/quick-links/quick-links.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'link'"}

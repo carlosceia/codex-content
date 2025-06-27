@@ -1,0 +1,1 @@
+{"name":"ALARMS_MODULE_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken('AlarmsModuleConfig')"}

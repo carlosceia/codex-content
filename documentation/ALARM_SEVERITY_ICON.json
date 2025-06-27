@@ -1,0 +1,1 @@
+{"name":"ALARM_SEVERITY_ICON","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  CIRCLE: 'circle',\n  HIGH_PRIORITY: 'high-priority',\n  WARNING: 'warning',\n  EXCLAMATION_CIRCLE: 'exclamation-circle'\n} as const"}

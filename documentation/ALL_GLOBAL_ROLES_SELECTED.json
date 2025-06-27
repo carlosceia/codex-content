@@ -1,0 +1,1 @@
+{"name":"ALL_GLOBAL_ROLES_SELECTED","ctype":"miscellaneous","subtype":"variable","file":"context-dashboard/context-dashboard.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"'all' as const"}

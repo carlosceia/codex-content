@@ -1,0 +1,1 @@
+{"name":"DATE_SELECTION_EXTENDED","childs":[{"name":"CONFIG","deprecated":false,"deprecationMessage":"","value":"config"},{"name":"DASHBOARD_CONTEXT","deprecated":false,"deprecationMessage":"","value":"dashboard_context"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"echart/models/datapoints-graph-widget.model.ts"}

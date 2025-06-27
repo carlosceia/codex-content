@@ -1,0 +1,1 @@
+{"name":"operationStatusIcons","ctype":"miscellaneous","subtype":"variable","file":"core/common/status.model.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  [OperationStatus.PENDING]: 'clock-o',\n  [OperationStatus.EXECUTING]: 'refresh',\n  [OperationStatus.SUCCESSFUL]: 'check-circle',\n  [OperationStatus.FAILED]: 'exclamation-circle'\n}"}

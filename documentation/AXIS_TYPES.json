@@ -1,0 +1,1 @@
+{"name":"AXIS_TYPES","ctype":"miscellaneous","subtype":"variable","file":"datapoint-selector/datapoint-attributes-form/datapoint-attributes.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"[\n  { val: undefined, text: gettext('Auto') },\n  { val: 'left', text: gettext('Left') },\n  { val: 'right', text: gettext('Right') }\n] as const"}

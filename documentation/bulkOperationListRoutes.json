@@ -1,0 +1,1 @@
+{"name":"bulkOperationListRoutes","ctype":"miscellaneous","subtype":"variable","file":"operations/bulk-operations-list/bulk-operations-list.module.ts","deprecated":false,"deprecationMessage":"","type":"Route[]","defaultValue":"[\n  {\n    path: 'devicecontrol/bulk',\n    component: BulkOperationsListComponent\n  }\n]"}

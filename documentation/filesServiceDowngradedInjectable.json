@@ -1,0 +1,1 @@
+{"name":"filesServiceDowngradedInjectable","ctype":"miscellaneous","subtype":"variable","file":"upgrade/ng1/downgraded.services.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"downgradeInjectable(FilesService)"}

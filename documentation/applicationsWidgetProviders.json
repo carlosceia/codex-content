@@ -1,0 +1,1 @@
+{"name":"applicationsWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/applications/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(applicationsWidgetDefinition)]"}

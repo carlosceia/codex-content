@@ -1,0 +1,1 @@
+{"name":"AggregationOption","ctype":"miscellaneous","subtype":"typealias","rawtype":" | template literal type","file":"global-context/aggregation-picker/aggregation.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Represents the available aggregation options.\nAggregation &#39;none&#39; is not handled by our backend.</p>\n","kind":192}

@@ -1,0 +1,1 @@
+{"name":"loadLocale","file":"core/i18n/__mocks__/load-locale.ts","ctype":"miscellaneous","subtype":"function","deprecated":false,"deprecationMessage":"","description":"","args":[{"name":"_moduleLang","type":"","deprecated":false,"deprecationMessage":""}],"jsdoctags":[{"name":"_moduleLang","type":"","deprecated":false,"deprecationMessage":"","tagName":{"text":"param"}}]}

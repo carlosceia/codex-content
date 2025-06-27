@@ -1,0 +1,1 @@
+{"name":"peopleIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/people/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('People`icons-category`'),\n  icons: peopleIcons\n} as const"}

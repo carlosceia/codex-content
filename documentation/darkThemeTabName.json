@@ -1,0 +1,1 @@
+{"name":"darkThemeTabName","ctype":"miscellaneous","subtype":"variable","file":"branding/dark-theme/dark-theme-tab.factory.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"gettext('Dark theme')"}

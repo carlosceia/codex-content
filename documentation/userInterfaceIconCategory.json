@@ -1,0 +1,1 @@
+{"name":"userInterfaceIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/userInterface/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('User interface`icons-category`'),\n  icons: userInterfaceIcons\n} as const"}

@@ -1,0 +1,1 @@
+{"name":"REQUIRED_MANAGED_OBJECT_ROLES","ctype":"miscellaneous","subtype":"variable","file":"replace-device/replace-device.service.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[\n  Permissions.ROLE_MANAGED_OBJECT_READ,\n  Permissions.ROLE_MANAGED_OBJECT_ADMIN\n]"}

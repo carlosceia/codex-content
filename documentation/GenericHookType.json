@@ -1,0 +1,1 @@
+{"name":"GenericHookType","ctype":"miscellaneous","subtype":"typealias","rawtype":"T | T[] | Type<ExtensionFactory<T>>","file":"core/common/extension-hooks.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

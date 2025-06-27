@@ -1,0 +1,1 @@
+{"name":"HOOK_LIST_BULK_TYPE","ctype":"miscellaneous","subtype":"variable","file":"operations/bulk-operations-service/bulk-operations.service.ts","deprecated":true,"deprecationMessage":"Consider using the `hookListBulkType` function instead.","type":"","defaultValue":"new InjectionToken<OperationType | OperationType[]>(\n  'HOOK_LIST_BULK_TYPE'\n)"}

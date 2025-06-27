@@ -1,0 +1,1 @@
+{"name":"LAST_MINUTE","ctype":"miscellaneous","subtype":"variable","file":"core/time-interval/time-interval.model.ts","deprecated":false,"deprecationMessage":"","type":"TimeIntervalOption","defaultValue":"{\n  label: gettext('Last minute'),\n  getStartDate: () => {\n    const start = new Date();\n    start.setMinutes(start.getMinutes() - 1);\n    return start;\n  }\n}"}

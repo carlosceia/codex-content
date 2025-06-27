@@ -1,0 +1,1 @@
+{"name":"INDEX_HTML","ctype":"miscellaneous","subtype":"variable","file":"echart/services/echarts-options.service.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'/index.html'"}

@@ -1,0 +1,1 @@
+{"name":"SortOrder","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"asc\" | \"desc\" | string","file":"core/data-grid/data-grid.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Sorting order: ascending, descending, or not specified.</p>\n","kind":192}

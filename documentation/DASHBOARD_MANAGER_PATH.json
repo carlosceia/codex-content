@@ -1,0 +1,1 @@
+{"name":"DASHBOARD_MANAGER_PATH","ctype":"miscellaneous","subtype":"variable","file":"dashboard-manager/dashboard-manager.module.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'dashboard-manager'"}

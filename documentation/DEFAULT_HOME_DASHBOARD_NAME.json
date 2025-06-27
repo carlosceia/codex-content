@@ -1,0 +1,1 @@
+{"name":"DEFAULT_HOME_DASHBOARD_NAME","ctype":"miscellaneous","subtype":"variable","file":"cockpit-config/cockpit-config.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'home-cockpit1'"}

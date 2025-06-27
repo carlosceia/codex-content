@@ -1,0 +1,1 @@
+{"name":"SINGLE_OPERATION_EVENT_DEVICE_TAB","ctype":"miscellaneous","subtype":"variable","file":"operations/product-experience/operations-product-experience.constants.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"`${DEVICE_CONTROL_EVENT_SINGLE_PREFIX}:deviceTab`"}

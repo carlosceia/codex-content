@@ -1,0 +1,1 @@
+{"name":"HookProviderTypes","childs":[{"name":"ExistingProvider","deprecated":false,"deprecationMessage":"","value":"ExistingProvider"},{"name":"ClassProvider","deprecated":false,"deprecationMessage":"","value":"ClassProvider"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"core/common/extension-hooks.ts"}

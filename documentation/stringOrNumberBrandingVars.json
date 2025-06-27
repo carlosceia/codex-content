@@ -1,0 +1,1 @@
+{"name":"stringOrNumberBrandingVars","ctype":"miscellaneous","subtype":"variable","file":"branding/shared/data/branding.type.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"['navigator-platform-logo-height'] as const"}

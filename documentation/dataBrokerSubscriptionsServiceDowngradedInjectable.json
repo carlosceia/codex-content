@@ -1,0 +1,1 @@
+{"name":"dataBrokerSubscriptionsServiceDowngradedInjectable","ctype":"miscellaneous","subtype":"variable","file":"data-broker/ng1/downgraded.services.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"downgradeInjectable(\n  DataBrokerSubscriptionsService\n)"}

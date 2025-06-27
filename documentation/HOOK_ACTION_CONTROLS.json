@@ -1,0 +1,1 @@
+{"name":"HOOK_ACTION_CONTROLS","ctype":"miscellaneous","subtype":"variable","file":"core/data-grid/action-controls-extension.service.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken('ActionControlHook')"}

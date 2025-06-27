@@ -1,0 +1,1 @@
+{"name":"nodeCrypto","ctype":"miscellaneous","subtype":"variable","file":"test/jest-global-mocks.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"require('crypto')"}

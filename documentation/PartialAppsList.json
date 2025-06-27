@@ -1,0 +1,1 @@
+{"name":"PartialAppsList","ctype":"miscellaneous","subtype":"typealias","rawtype":"Array<Partial<IApplication>>","file":"default-subscriptions/default-subscriptions.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>The list of partial application objects.</p>\n","kind":183}

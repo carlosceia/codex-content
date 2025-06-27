@@ -1,0 +1,1 @@
+{"name":"infoGaugeWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/info-gauge/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(infoGaugeWidgetDefinition)]"}

@@ -1,0 +1,1 @@
+{"name":"TEST_INJECTION_TOKEN_TWO","ctype":"miscellaneous","subtype":"variable","file":"core/plugins/__test__/plugins-test-helper.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken('TEST2')"}

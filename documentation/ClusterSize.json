@@ -1,0 +1,1 @@
+{"name":"ClusterSize","childs":[{"name":"NONE","deprecated":false,"deprecationMessage":"","value":0},{"name":"FOUR","deprecated":false,"deprecationMessage":"","value":1},{"name":"SIXTEEN","deprecated":false,"deprecationMessage":"","value":2}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"map/map.model.ts"}

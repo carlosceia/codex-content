@@ -1,0 +1,1 @@
+{"name":"trustedCertificatesRoutes","ctype":"miscellaneous","subtype":"variable","file":"trusted-certificates/list/trusted-certificate-list.module.ts","deprecated":false,"deprecationMessage":"","type":"Route[]","defaultValue":"[\n  {\n    path: 'trusted-certificates/certificates',\n    component: TrustedCertificateListComponent,\n    pathMatch: 'full'\n  }\n]"}

@@ -1,0 +1,1 @@
+{"name":"toProvider","file":"api/data.module.ts","ctype":"miscellaneous","subtype":"function","deprecated":false,"deprecationMessage":"","description":"","args":[{"name":"provide","type":"Type","deprecated":false,"deprecationMessage":""}],"returnType":"Provider","jsdoctags":[{"name":"provide","type":"Type","deprecated":false,"deprecationMessage":"","tagName":{"text":"param"}}]}

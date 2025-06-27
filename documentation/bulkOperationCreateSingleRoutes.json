@@ -1,0 +1,1 @@
+{"name":"bulkOperationCreateSingleRoutes","ctype":"miscellaneous","subtype":"variable","file":"operations/bulk-operation-from-single/bulk-operation-from-single.module.ts","deprecated":false,"deprecationMessage":"","type":"Route[]","defaultValue":"[\n  {\n    path: 'devicecontrol/single/create-bulk/:operationId',\n    component: BulkOperationFromSingleComponent\n  }\n]"}

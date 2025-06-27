@@ -1,0 +1,1 @@
+{"name":"THROTTLE_REALTIME_REFRESH","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.model.ts","deprecated":false,"deprecationMessage":"","type":"number","defaultValue":"1_000"}

@@ -1,0 +1,1 @@
+{"name":"SortingOrder","childs":[{"name":"ASC","deprecated":false,"deprecationMessage":"","value":"asc"},{"name":"DESC","deprecated":false,"deprecationMessage":"","value":"desc"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"core/data-grid/data-grid.component.ts"}

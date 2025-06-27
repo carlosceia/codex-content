@@ -1,0 +1,1113 @@
+<c8y-title>{{ title }}</c8y-title>
+<c8y-breadcrumb>
+  <c8y-breadcrumb-item
+    *ngFor="let item of breadcrumbs"
+    [label]="item.label"
+    [path]="item.path"
+  ></c8y-breadcrumb-item>
+</c8y-breadcrumb>
+
+<c8y-loading *ngIf="loading$ | async; else loaded"></c8y-loading>
+
+<ng-template #loaded>
+  <div class="d-grid grid__col--9-3--md">
+    <div
+      class="codex-content"
+      id="codex-content"
+      #contentElement
+    >
+      <ng-container *ngFor="let data of dataToRender">
+        <h2
+          id="{{ data.name }}"
+          #sectionHeader
+        >
+          {{ data.name }}
+        </h2>
+        <p
+          class="comment"
+          *ngIf="data.import"
+        >
+          <code>import {{ '{ ' }}{{ data.name }} {{ ' }' }} from "{{ data.import }}";</code>
+        </p>
+
+        <table class="table table-bordered">
+          <tbody>
+            <tr class="bg-level-1">
+              <th>File</th>
+            </tr>
+            <tr>
+              <td>
+                <code>{{ data.file }}</code>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <ng-container *ngIf="data.description">
+          <h3 [id]="data.name + '-description'">Description</h3>
+          <div [innerHTML]="data.description | highlightapi | async"></div>
+        </ng-container>
+
+        <ng-container *ngIf="data.extends">
+          <h3 [id]="data.name + '-extends'">Extends</h3>
+          <div>{{ data.extends }}</div>
+        </ng-container>
+
+        <ng-container *ngIf="!data.type">
+          <ng-container *ngFor="let moduleData of data.children">
+            <ng-container *ngIf="moduleData.elements.length > 0">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr class="bg-level-1">
+                    <th>{{ moduleData.type }}</th>
+                  </tr>
+                  <tr *ngFor="let element of moduleData.elements">
+                    <td>
+                      <code>{{ element.name }}</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </ng-container>
+          </ng-container>
+        </ng-container>
+
+        <ng-container *ngIf="data.type === 'component'">
+          <h3>Metadata</h3>
+          <table class="table table-bordered">
+            <tbody>
+              <tr
+                class="bg-level-1"
+                *ngIf="data.providers.length"
+              >
+                <th>Providers</th>
+              </tr>
+              <tr *ngIf="data.providers.length">
+                <td>
+                  <code
+                    *ngFor="let provider of data.providers"
+                    [innerHTML]="provider.name"
+                  ></code>
+                </td>
+              </tr>
+
+              <tr
+                class="bg-level-1"
+                *ngIf="data.selector"
+              >
+                <th>Selector</th>
+              </tr>
+              <tr *ngIf="data.selector">
+                <td>
+                  <ng-container>
+                    <code>
+                      {{ data.selector }}
+                    </code>
+                  </ng-container>
+                </td>
+              </tr>
+
+              <tr
+                class="bg-level-1"
+                *ngIf="data.templateUrl.length"
+              >
+                <th>TemplateUrl</th>
+              </tr>
+              <tr *ngIf="data.templateUrl.length">
+                <td>
+                  <code>{{ data.templateUrl }}</code>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <ng-container *ngIf="showIndex">
+            <h3>Index</h3>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th class="bg-level-1">Properties</th>
+                </tr>
+                <tr *ngFor="let property of data.propertiesClass">
+                  <td>
+                    {{ property.name }}
+                  </td>
+                </tr>
+                <tr>
+                  <th class="bg-level-1">Methods</th>
+                </tr>
+                <tr *ngFor="let method of data.methodsClass">
+                  <td>
+                    {{ method.name }}
+                  </td>
+                </tr>
+                <tr>
+                  <th class="bg-level-1">Inputs</th>
+                </tr>
+                <tr *ngFor="let input of data.inputsClass">
+                  <td>
+                    {{ input.name }}
+                  </td>
+                </tr>
+                <tr>
+                  <th class="bg-level-1">Outputs</th>
+                </tr>
+                <tr *ngFor="let output of data.outputsClass">
+                  <td>
+                    {{ output.name }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.inputsClass.length > 0">
+            <h3>Inputs</h3>
+            <table class="table table-bordered">
+              <colgroup>
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="40%" />
+              </colgroup>
+              <tbody>
+                <tr class="bg-level-1 page-sticky-header">
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Default value</th>
+                  <th>Description</th>
+                </tr>
+                <tr *ngFor="let input of data.inputsClass">
+                  <td>
+                    {{ input.name }}
+                  </td>
+                  <td>
+                    <code *ngIf="input.type">{{ input.type }}</code>
+                  </td>
+                  <td>
+                    <code *ngIf="input.defaultValue">{{ input.defaultValue }}</code>
+                  </td>
+                  <td>
+                    <p
+                      *ngIf="input.description"
+                      [innerHTML]="input.description | highlightapi | async"
+                    ></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.outputsClass.length > 0">
+            <h3>Outputs</h3>
+            <table class="table table-bordered">
+              <colgroup>
+                <col width="30%" />
+                <col width="30%" />
+                <col width="40%" />
+              </colgroup>
+              <tbody>
+                <tr class="bg-level-1 page-sticky-header">
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Description</th>
+                </tr>
+                <tr *ngFor="let output of data.outputsClass">
+                  <td>
+                    {{ output.name }}
+                  </td>
+                  <td>
+                    <code *ngIf="output.type">{{ output.type }}</code>
+                  </td>
+                  <td>
+                    <p
+                      *ngIf="output.description"
+                      [innerHTML]="output.description"
+                    ></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.methodsClass.length > 0">
+            <h3>Methods</h3>
+            <ng-container *ngFor="let method of data.methodsClass">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <th class="bg-level-1">
+                      <span *ngIf="method.modifierKind">Async</span>
+                      <span>
+                        {{ ' ' + method.name }}
+                      </span>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <code>{{ getMethodNameAndArgs(method) }}</code>
+                    </td>
+                  </tr>
+                  <tr *ngIf="method.description">
+                    <th class="bg-level-1">Description</th>
+                  </tr>
+                  <tr *ngIf="method.description">
+                    <td>
+                      <p [innerHTML]="method.description | highlightapi | async"></p>
+                    </td>
+                  </tr>
+                  <tr *ngIf="method.jsdoctags">
+                    <th class="bg-level-1">Parameters</th>
+                  </tr>
+                  <tr *ngIf="method.jsdoctags">
+                    <td class="p-0">
+                      <table class="table table-bordered m-b-0">
+                        <colgroup>
+                          <col width="20%" />
+                          <col width="20%" />
+                          <col width="20%" />
+                          <col width="40%" />
+                        </colgroup>
+                        <tbody>
+                          <tr class="bg-level-1 page-sticky-header">
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Optional</th>
+                            <th>Description</th>
+                          </tr>
+                          <tr *ngFor="let param of method.jsdoctags">
+                            <td>
+                              {{
+                                param.name?.escapedText
+                                  ? param.name.escapedText
+                                  : param.name?.length > 0
+                                    ? param.name
+                                    : 'undefined'
+                              }}
+                            </td>
+                            <td>
+                              <code>
+                                {{ param.type ? param.type : 'any' }}
+                              </code>
+                            </td>
+                            <td>{{ param.optional ? 'Yes' : 'No' }}</td>
+                            <td>
+                              <p
+                                *ngIf="param.comment"
+                                [innerHTML]="param.comment"
+                              ></p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr *ngIf="method.returnType">
+                    <th class="bg-level-1">Return</th>
+                  </tr>
+                  <tr *ngIf="method.returnType">
+                    <td>
+                      <code>{{ method.returnType }}</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </ng-container>
+          </ng-container>
+
+          <ng-container *ngIf="data.propertiesClass.length > 0">
+            <h3>Properties</h3>
+            <table class="table table-bordered">
+              <colgroup>
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+              </colgroup>
+              <tbody>
+                <tr class="bg-level-1 page-sticky-header">
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Default value</th>
+                  <th>Decorators</th>
+                  <th>Description</th>
+                </tr>
+                <tr *ngFor="let property of data.propertiesClass">
+                  <td>
+                    {{ property.name }}
+                  </td>
+
+                  <td>
+                    <code *ngIf="property.type">{{ property.type }}</code>
+                  </td>
+
+                  <td>
+                    <code *ngIf="property.defaultValue">{{ property.defaultValue }}</code>
+                  </td>
+                  <td>
+                    <ng-container *ngIf="property.decorators">
+                      <code *ngFor="let decorator of property.decorators">
+                        {{ decorator.name + '(' + decorator.strigifiedArguments + ')' }}
+                      </code>
+                    </ng-container>
+                  </td>
+                  <td>
+                    <p [innerHTML]="property.description | highlightapi | async"></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+        </ng-container>
+
+        <ng-container *ngIf="data.type === 'injectable'">
+          <ng-container *ngIf="showIndex">
+            <h3>Index</h3>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th class="bg-level-1">Properties</th>
+                </tr>
+                <tr *ngFor="let property of data.properties">
+                  <td>
+                    {{ property.name }}
+                  </td>
+                </tr>
+                <tr>
+                  <th class="bg-level-1">Methods</th>
+                </tr>
+                <tr *ngFor="let method of data.methods">
+                  <td>
+                    {{ method.name }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.accessors">
+            <h3>Accessors</h3>
+            <table
+              class="table table-bordered"
+              *ngFor="let accessor of data.accessors | keyvalue"
+            >
+              <tbody>
+                <tr class="bg-level-1">
+                  <th>
+                    {{ ' ' + accessor.value.name }}
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <code>{{ getMethodNameAndArgs(accessor.value) }}</code>
+                  </td>
+                </tr>
+                <tr
+                  class="bg-level-1"
+                  *ngIf="accessor.value.getSignature.description"
+                >
+                  <th>Description</th>
+                </tr>
+                <tr *ngIf="accessor.value.getSignature.description">
+                  <td>
+                    <p [innerHTML]="accessor.value.getSignature.description | highlightapi | async"></p>
+                  </td>
+                </tr>
+                <tr
+                  class="bg-level-1"
+                  *ngIf="accessor.value.getSignature.returnType"
+                >
+                  <th>Returns</th>
+                </tr>
+                <tr *ngIf="accessor.value.getSignature.returnType">
+                  <td>
+                    <code>{{ accessor.value.getSignature.returnType }}</code>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.methods.length > 0">
+            <h3>Methods</h3>
+            <table
+              class="table table-bordered"
+              *ngFor="let method of data.methods"
+            >
+              <tbody>
+                <tr class="bg-level-1">
+                  <th>
+                    <span *ngIf="method.modifierKind">Async</span>
+                    {{ ' ' + method.name }}
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <code>{{ getMethodNameAndArgs(method) }}</code>
+                  </td>
+                </tr>
+
+                <tr
+                  class="bg-level-1"
+                  *ngIf="method.description"
+                >
+                  <th>Description</th>
+                </tr>
+                <tr *ngIf="method.description">
+                  <td>
+                    <p [innerHTML]="method.description | highlightapi | async"></p>
+                  </td>
+                </tr>
+                <tr
+                  class="bg-level-1"
+                  *ngIf="method.args"
+                >
+                  <th>Parameters</th>
+                </tr>
+                <tr *ngIf="method.args">
+                  <td class="p-0">
+                    <table class="table table-bordered">
+                      <tbody>
+                        <tr class="bg-level-1 page-sticky-header">
+                          <th>Name</th>
+                          <th>Type</th>
+                          <th>Optional</th>
+                          <th>Description</th>
+                        </tr>
+                        <tr *ngFor="let param of method.jsdoctags">
+                          <td>
+                            {{ param.name?.escapedText ? param.name.escapedText : param.name }}
+                          </td>
+                          <td>
+                            <code>
+                              {{ param.type ? param.type : 'any' }}
+                            </code>
+                          </td>
+
+                          <td>{{ param.optional ? 'Yes' : 'No' }}</td>
+                          <td><p [innerHTML]="param.comment"></p></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr
+                  class="bg-level-1"
+                  *ngIf="method.returnType"
+                >
+                  <th>Returns</th>
+                </tr>
+                <tr *ngIf="method.returnType">
+                  <td>
+                    <code>{{ method.returnType }}</code>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.properties.length > 0">
+            <h3>Properties</h3>
+            <table class="table table-bordered">
+              <colgroup>
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+              </colgroup>
+              <tbody>
+                <tr class="bg-level-1 page-sticky-header">
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Default value</th>
+                  <th>Decorators</th>
+                  <th>Description</th>
+                </tr>
+                <tr *ngFor="let property of data.properties">
+                  <td>
+                    {{ property.name }}
+                  </td>
+                  <td>
+                    <code *ngIf="property.type">{{ property.type }}</code>
+                  </td>
+                  <td>
+                    <code *ngIf="property.defaultValue">{{ property.defaultValue }}</code>
+                  </td>
+                  <td>
+                    <span *ngIf="property.decorators">
+                      <code *ngFor="let decorator of property.decorators">
+                        {{ decorator.name + '(' + decorator.stringifiedArguments + ')' }}
+                      </code>
+                    </span>
+                  </td>
+                  <td>
+                    <div
+                      *ngIf="property.description"
+                      [innerHTML]="property.description"
+                    ></div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+        </ng-container>
+
+        <ng-container *ngIf="data.type === 'pipe' && data.methods.length > 0">
+          <h3>Methods</h3>
+          <table
+            class="table table-bordered"
+            *ngFor="let method of data.methods"
+          >
+            <tbody>
+              <tr class="bg-level-1">
+                <th>
+                  <span *ngIf="method.modifierKind">Async</span>
+                  <span>
+                    {{ ' ' + method.name }}
+                  </span>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <code>{{ getMethodNameAndArgs(method) }}</code>
+                </td>
+              </tr>
+              <tr *ngIf="method.description">
+                <td>
+                  <div [innerHTML]="method.description | highlightapi | async"></div>
+                </td>
+              </tr>
+              <tr
+                class="bg-level-1 page-sticky-header"
+                *ngIf="method.args"
+              >
+                <th>Parameters</th>
+              </tr>
+              <tr *ngIf="method.args">
+                <td class="p-0">
+                  <table class="table table-bordered m-b-0">
+                    <colgroup>
+                      <col width="20%" />
+                      <col width="20%" />
+                      <col width="20%" />
+                      <col width="40%" />
+                    </colgroup>
+                    <tbody>
+                      <tr class="bg-level-1 page-sticky-header">
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Optional</th>
+                        <th>Description</th>
+                      </tr>
+                      <tr *ngFor="let param of method.jsdoctags">
+                        <td>
+                          {{ param.name?.escapedText ? param.name.escapedText : param.name }}
+                        </td>
+                        <td>
+                          <code>
+                            {{ param.type ? param.type : 'any' }}
+                          </code>
+                        </td>
+
+                        <td>{{ param.optional ? 'Yes' : 'No' }}</td>
+
+                        <td [innerHTML]="param.comment"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr
+                class="bg-level-1"
+                *ngIf="method.returnType"
+              >
+                <th>Returns</th>
+              </tr>
+              <tr *ngIf="method.returnType">
+                <td>
+                  <code>{{ method.returnType }}</code>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </ng-container>
+
+        <ng-container *ngIf="data.type === 'directive'">
+          <h3>Metadata</h3>
+          <table class="table table-bordered">
+            <tbody>
+              <tr class="bg-level-1">
+                <th>selector</th>
+              </tr>
+              <tr>
+                <td>
+                  <code>{{ data.selector }}</code>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <ng-container *ngIf="showIndex">
+            <h3>Index</h3>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th class="bg-level-1">Methods</th>
+                </tr>
+                <tr *ngFor="let method of data.methodsClass">
+                  <td>
+                    {{ method.name }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.constructorObj">
+            <h3>Constructor</h3>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td>
+                    <code>{{ getMethodNameAndArgs(data.constructorObj) }}</code>
+                  </td>
+                </tr>
+                <tr *ngIf="data.constructorObj.description">
+                  <td>
+                    <div [innerHTML]="data.constructorObj.description"></div>
+                  </td>
+                </tr>
+                <tr *ngIf="data.constructorObj.args">
+                  <th class="bg-level-1">Parameters</th>
+                </tr>
+                <tr>
+                  <td class="p-0">
+                    <table class="table table-bordered m-b-0">
+                      <colgroup>
+                        <col width="20%" />
+                        <col width="20%" />
+                        <col width="20%" />
+                        <col width="40%" />
+                      </colgroup>
+                      <tbody>
+                        <tr class="bg-level-1 page-sticky-header">
+                          <th>Name</th>
+                          <th>Type</th>
+                          <th>Optional</th>
+                          <th>Description</th>
+                        </tr>
+                        <tr *ngFor="let param of data.constructorObj.jsdoctags">
+                          <td>
+                            {{
+                              param.name?.escapedText
+                                ? param.name.escapedText
+                                : param.name?.length > 0
+                                  ? param.name
+                                  : 'Undefined'
+                            }}
+                          </td>
+                          <td>
+                            <code>
+                              {{ param.type ? param.type : 'any' }}
+                            </code>
+                          </td>
+
+                          <td>{{ param.optional ? 'Yes' : 'No' }}</td>
+
+                          <td>
+                            <p [innerHTML]="param.comment"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.inputsClass.length > 0">
+            <h3>Inputs</h3>
+            <table class="table table-bordered">
+              <colgroup>
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="40%" />
+              </colgroup>
+              <tbody>
+                <tr class="bg-level-1 page-sticky-header">
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Default value</th>
+                  <th>Description</th>
+                </tr>
+                <tr *ngFor="let input of data.inputsClass">
+                  <td>
+                    {{ input.name }}
+                  </td>
+                  <td>
+                    <code *ngIf="input.type">{{ input.type }}</code>
+                  </td>
+                  <td>
+                    <code *ngIf="input.defaultValue">{{ input.defaultValue }}</code>
+                  </td>
+                  <td>
+                    <p
+                      *ngIf="input.description"
+                      [innerHTML]="input.description | highlightapi | async"
+                    ></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.outputsClass.length > 0">
+            <h3>Outputs</h3>
+            <table class="table table-bordered">
+              <colgroup>
+                <col width="30%" />
+                <col width="30%" />
+                <col width="40%" />
+              </colgroup>
+              <tbody>
+                <tr class="bg-level-1 page-sticky-header">
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Description</th>
+                </tr>
+                <tr *ngFor="let output of data.outputsClass">
+                  <td>
+                    {{ output.name }}
+                  </td>
+                  <td>
+                    <code *ngIf="output.type">{{ output.type }}</code>
+                  </td>
+                  <td>
+                    <p
+                      *ngIf="output.description"
+                      [innerHTML]="output.description"
+                    ></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.methodsClass.length > 0">
+            <h3>Methods</h3>
+            <table
+              class="table table-bordered"
+              *ngFor="let method of data.methodsClass"
+            >
+              <tbody>
+                <tr>
+                  <th class="bg-level-1">
+                    <span *ngIf="method.modifierKind">Async</span>
+                    <span>
+                      {{ ' ' + method.name }}
+                    </span>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <code>{{ getMethodNameAndArgs(method) }}</code>
+                  </td>
+                </tr>
+                <tr *ngIf="method.description">
+                  <th class="bg-level-1">Description</th>
+                </tr>
+                <tr *ngIf="method.description">
+                  <td>
+                    <p [innerHTML]="method.description | highlightapi | async"></p>
+                  </td>
+                </tr>
+                <tr *ngIf="method.args.length > 0">
+                  <th class="bg-level-1">Parameters</th>
+                </tr>
+                <tr *ngIf="method.jsdoctags">
+                  <td class="p-0">
+                    <table class="table table-bordered m-b-0">
+                      <colgroup>
+                        <col width="20%" />
+                        <col width="20%" />
+                        <col width="20%" />
+                        <col width="40%" />
+                      </colgroup>
+                      <tbody>
+                        <tr class="bg-level-1 page-sticky-header">
+                          <td>Name</td>
+                          <td>Type</td>
+                          <td>Optional</td>
+                          <td>Description</td>
+                        </tr>
+                        <tr *ngFor="let param of method.jsdoctags">
+                          <td>
+                            {{ param.name?.escapedText ? param.name.escapedText : param.name }}
+                          </td>
+                          <td>
+                            <code>
+                              {{ param.type ? param.type : 'any' }}
+                            </code>
+                          </td>
+                          <td>{{ param.optional ? 'Yes' : 'No' }}</td>
+                          <td>
+                            <p [innerHTML]="param.comment"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr *ngIf="method.returnType">
+                  <th class="bg-level-1">Returns</th>
+                </tr>
+                <tr *ngIf="method.returnType">
+                  <td>
+                    <code>{{ method.returnType }}</code>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+        </ng-container>
+
+        <ng-container *ngIf="data.type === 'class'">
+          <ng-container *ngIf="showIndex">
+            <h3>Index</h3>
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <th class="bg-level-1">Properties</th>
+                </tr>
+                <tr *ngFor="let property of data.properties">
+                  <td>
+                    {{ property.name }}
+                  </td>
+                </tr>
+                <tr>
+                  <th class="bg-level-1">Methods</th>
+                </tr>
+                <tr *ngFor="let method of data.methods">
+                  <td>
+                    {{ method.name }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+
+          <ng-container *ngIf="data.methods.length > 0">
+            <h3>Methods</h3>
+            <ng-container *ngFor="let method of data.methods">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <th class="bg-level-1">
+                      <span *ngIf="method.modifierKind">Async</span>
+                      <span>
+                        {{ ' ' + method.name }}
+                      </span>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <code>{{ getMethodNameAndArgs(method) }}</code>
+                    </td>
+                  </tr>
+                  <tr *ngIf="method.description">
+                    <th class="bg-level-1">Description</th>
+                  </tr>
+                  <tr *ngIf="method.description">
+                    <td>
+                      <p [innerHTML]="method.description | highlightapi | async"></p>
+                    </td>
+                  </tr>
+                  <tr *ngIf="method.jsdoctags">
+                    <th class="bg-level-1">Parameters</th>
+                  </tr>
+                  <tr *ngIf="method.jsdoctags">
+                    <td class="p-0">
+                      <table class="table table-bordered m-b-0">
+                        <colgroup>
+                          <col width="20%" />
+                          <col width="20%" />
+                          <col width="20%" />
+                          <col width="40%" />
+                        </colgroup>
+                        <tbody>
+                          <tr class="bg-level-1 page-sticky-header">
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Optional</th>
+                            <th>Description</th>
+                          </tr>
+                          <tr *ngFor="let param of method.jsdoctags">
+                            <td>
+                              {{
+                                param.name?.escapedText
+                                  ? param.name.escapedText
+                                  : param.name?.length > 0
+                                    ? param.name
+                                    : 'undefined'
+                              }}
+                            </td>
+                            <td>
+                              <code>
+                                {{ param.type ? param.type : 'any' }}
+                              </code>
+                            </td>
+                            <td>{{ param.optional ? 'Yes' : 'No' }}</td>
+                            <td>
+                              <p
+                                *ngIf="param.comment"
+                                [innerHTML]="param.comment"
+                              ></p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr *ngIf="method.returnType">
+                    <th class="bg-level-1">Return</th>
+                  </tr>
+                  <tr *ngIf="method.returnType">
+                    <td>
+                      <code>{{ method.returnType }}</code>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </ng-container>
+          </ng-container>
+
+          <ng-container *ngIf="data.properties.length > 0">
+            <h3>Properties</h3>
+            <table class="table table-bordered">
+              <colgroup>
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+              </colgroup>
+              <tbody>
+                <tr class="bg-level-1 page-sticky-header">
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Default value</th>
+                  <th>Decorators</th>
+                  <th>Description</th>
+                </tr>
+                <tr *ngFor="let property of data.properties">
+                  <td>
+                    {{ property.name }}
+                  </td>
+
+                  <td>
+                    <code *ngIf="property.type">{{ property.type }}</code>
+                  </td>
+
+                  <td>
+                    <code *ngIf="property.defaultValue">{{ property.defaultValue }}</code>
+                  </td>
+                  <td>
+                    <ng-container *ngIf="property.decorators">
+                      <code *ngFor="let decorator of property.decorators">
+                        {{ decorator.name + '(' + decorator.stringifiedArguments + ')' }}
+                      </code>
+                    </ng-container>
+                  </td>
+                  <td>
+                    <p [innerHTML]="property.description"></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+        </ng-container>
+
+        <ng-container *ngIf="data.type === 'interface'">
+
+          <ng-container *ngIf="data.properties.length > 0">
+            <h3>Interface Properties</h3>
+            <table class="table table-bordered">
+              <colgroup>
+                <col width="20%" />
+                <col width="20%" />
+                <col width="20%" />
+                <col width="40%" />
+              </colgroup>
+              <tbody>
+                <tr class="bg-level-1 page-sticky-header">
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Optional</th>
+                  <th>Description</th>
+                </tr>
+                <tr *ngFor="let property of data.properties">
+                  <td>
+                    {{ property.name }}
+                  </td>
+
+                  <td>
+                    <code *ngIf="property.type">{{ property.type }}</code>
+                  </td>
+
+                  <td>
+                    <code *ngIf="property.optional">{{ property.optional ? 'Yes' : 'No' }}</code>
+                  </td>
+                  <td>
+                    <p [innerHTML]="property.description"></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+        </ng-container>
+
+        <ng-container *ngIf="!data.type && data.subtype === 'enum'">
+
+          <ng-container *ngIf="data.childs.length > 0">
+            <h3>Enum properties</h3>
+            <table class="table table-bordered">
+              <colgroup>
+                <col width="25%" />
+                <col width="25%" />
+                <col width="50%" />
+              </colgroup>
+              <tbody>
+                <tr class="bg-level-1 page-sticky-header">
+                  <th>Name</th>
+                  <th>value</th>
+                  <th>Description</th>
+                </tr>
+                <tr *ngFor="let child of data.childs">
+                  <td>
+                    {{ child.name }}
+                  </td>
+
+                  <td>
+                    <code *ngIf="child.value">{{ child.value }}</code>
+                  </td>
+                  <td>
+                    <p [innerHTML]="child.description"></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </ng-container>
+        </ng-container>
+      </ng-container>
+    </div>
+    <c8y-table-of-contents
+      class="styleguide-page-nav hidden-sm hidden-xs"
+      [contentElement]="contentElement"
+    ></c8y-table-of-contents>
+  </div>
+</ng-template>

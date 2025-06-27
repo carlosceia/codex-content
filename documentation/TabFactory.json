@@ -1,0 +1,1 @@
+{"name":"TabFactory","ctype":"miscellaneous","subtype":"typealias","rawtype":"ExtensionFactory<Tab>","file":"core/tabs/tab.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Factory to implement if used in a hook for Multi Provider extension.</p>\n","kind":183}

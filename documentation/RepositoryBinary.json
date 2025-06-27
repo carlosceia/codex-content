@@ -1,0 +1,1 @@
+{"name":"RepositoryBinary","ctype":"miscellaneous","subtype":"typealias","rawtype":"FirmwareBinary | SoftwareBinary | FirmwarePatchBinary","file":"repository/shared/repository.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

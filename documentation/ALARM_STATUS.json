@@ -1,0 +1,1 @@
+{"name":"ALARM_STATUS","ctype":"miscellaneous","subtype":"variable","file":"device-protocol-object-mappings/default-object-mapping-types/index.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  ACTIVE: gettext('ACTIVE'),\n  ACKNOWLEDGED: gettext('ACKNOWLEDGED'),\n  CLEARED: gettext('CLEARED')\n}"}

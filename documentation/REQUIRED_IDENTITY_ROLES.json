@@ -1,0 +1,1 @@
+{"name":"REQUIRED_IDENTITY_ROLES","ctype":"miscellaneous","subtype":"variable","file":"replace-device/replace-device.service.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[\n  Permissions.ROLE_IDENTITY_READ,\n  Permissions.ROLE_IDENTITY_ADMIN\n]"}

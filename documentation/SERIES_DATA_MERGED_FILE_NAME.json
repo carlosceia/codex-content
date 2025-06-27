@@ -1,0 +1,1 @@
+{"name":"SERIES_DATA_MERGED_FILE_NAME","ctype":"miscellaneous","subtype":"variable","file":"datapoints-export-selector/datapoints-export-selector.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'seriesDataMergedFileName'"}

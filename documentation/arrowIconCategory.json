@@ -1,0 +1,1 @@
+{"name":"arrowIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/arrows/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Arrow`icons-category`'),\n  icons: arrowIcons\n} as const"}

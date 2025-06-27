@@ -1,0 +1,1 @@
+{"name":"AlarmListRefreshOption","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"none\" | \"interval\" | \"global-interval\"","file":"widgets/implementations/alarms/alarm-list-widget.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

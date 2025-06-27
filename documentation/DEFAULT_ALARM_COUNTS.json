@@ -1,0 +1,1 @@
+{"name":"DEFAULT_ALARM_COUNTS","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.model.ts","deprecated":false,"deprecationMessage":"","type":"AlarmCount","defaultValue":"{ CRITICAL: 0, MAJOR: 0, MINOR: 0, WARNING: 0 }"}

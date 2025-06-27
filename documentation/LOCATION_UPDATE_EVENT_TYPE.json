@@ -1,0 +1,1 @@
+{"name":"LOCATION_UPDATE_EVENT_TYPE","ctype":"miscellaneous","subtype":"variable","file":"tracking/tracking.service.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'c8y_LocationUpdate'"}

@@ -1,0 +1,1 @@
+{"name":"csvHeaders","ctype":"miscellaneous","subtype":"variable","file":"register-device/bulk/bulk-device-registration-modal.component.ts","deprecated":false,"deprecationMessage":"","type":"string[]","defaultValue":"[\n  'ID',\n  'TYPE',\n  'NAME',\n  'ICCID',\n  'IDTYPE',\n  'PATH',\n  'SHELL',\n  'AUTH_TYPE'\n]"}

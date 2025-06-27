@@ -1,0 +1,1 @@
+{"name":"angularLocalesLanguageMap","ctype":"miscellaneous","subtype":"variable","file":"core/i18n/i18n.module.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  en: 'en-GB',\n  'en-EN': 'en-GB',\n  'en-US': 'en',\n  'ja-JP': 'ja',\n  'zh-CN': 'zh',\n  'zh-TW': 'zh',\n  'pt-BR': 'pt'\n} as const","rawdescription":"The","description":"<p>The</p>\n"}

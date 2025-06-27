@@ -1,0 +1,1 @@
+{"name":"MAP_DEFAULT_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"map/map.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<Observable<MapDefaultConfig>>(\n  'MAP_DEFAULT_CONFIG'\n)"}

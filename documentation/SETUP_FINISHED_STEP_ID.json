@@ -1,0 +1,1 @@
+{"name":"SETUP_FINISHED_STEP_ID","ctype":"miscellaneous","subtype":"variable","file":"core/setup/setup.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'c8ySetupFinished'"}

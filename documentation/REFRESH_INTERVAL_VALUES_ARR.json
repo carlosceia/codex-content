@@ -1,0 +1,1 @@
+{"name":"REFRESH_INTERVAL_VALUES_ARR","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/datapoints-table/datapoints-table-widget.model.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[5_000, 10_000, 15_000, 30_000, 60_000]"}

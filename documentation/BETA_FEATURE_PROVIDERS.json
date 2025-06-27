@@ -1,0 +1,1 @@
+{"name":"BETA_FEATURE_PROVIDERS","ctype":"miscellaneous","subtype":"variable","file":"core/beta-feature/beta-feature.providers.ts","deprecated":false,"deprecationMessage":"","type":"Provider[]","defaultValue":"[\n  hookDrawer(BetaPreviewDrawerFactory),\n  hookService('notificationService', BetaFeatureShowNotification)\n]"}

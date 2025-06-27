@@ -1,0 +1,1 @@
+{"name":"RealtimeAction","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"UPDATE\" | \"DELETE\" | \"CREATE\"","file":"core/realtime/realtime.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

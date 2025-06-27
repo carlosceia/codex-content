@@ -1,0 +1,1 @@
+{"name":"ServerSideDataResult","ctype":"miscellaneous","subtype":"typealias","rawtype":"","file":"core/data-grid/data-grid.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Describes a result from server with data and additional statistics.</p>\n","kind":193}

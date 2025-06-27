@@ -1,0 +1,1 @@
+{"name":"DEFAULT_INTERVAL_VALUES","ctype":"miscellaneous","subtype":"variable","file":"core/dashboard/widget-auto-refresh-context/widget-auto-refresh-context.model.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[5_000, 10_000, 15_000, 30_000, 60_000]"}

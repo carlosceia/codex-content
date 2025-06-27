@@ -1,0 +1,1 @@
+{"name":"programmingIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/programming/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Programming`icons-category`'),\n  icons: programmingIcons\n} as const"}

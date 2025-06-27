@@ -1,0 +1,1 @@
+{"name":"translationEditorBasePath","ctype":"miscellaneous","subtype":"variable","file":"translation-editor/translation-editor.constants.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'localization'"}

@@ -1,0 +1,1 @@
+{"name":"objectTypeConfig","ctype":"miscellaneous","subtype":"variable","file":"core/dynamic-forms/object/object.type.component.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"(): EnvironmentProviders =>\n  importProvidersFrom(\n    FormlyModule.forChild({\n      types: [{ name: 'object', component: ObjectTypeComponent }]\n    })\n  )"}

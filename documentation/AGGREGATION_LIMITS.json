@@ -1,0 +1,1 @@
+{"name":"AGGREGATION_LIMITS","ctype":"miscellaneous","subtype":"variable","file":"global-context/aggregation-picker/aggregation.model.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  MINUTELY_LIMIT: TIME_SPAN_MS.MINUTE * 10,\n  HOURLY_LIMIT: TIME_SPAN_MS.DAY * 1,\n  DAILY_LIMIT: TIME_SPAN_MS.DAY * 4\n}"}

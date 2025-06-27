@@ -1,0 +1,1 @@
+{"name":"SHOW_BETA_PREVIEW","ctype":"miscellaneous","subtype":"variable","file":"core/beta-feature/beta-preview.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'showBetaPreview'"}

@@ -1,0 +1,1 @@
+{"name":"TabOrientation","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"horizontal\" | \"vertical\"","file":"core/tabs/tab.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Type alias for tab orientation.</p>\n","kind":192}

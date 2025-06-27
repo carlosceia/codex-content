@@ -1,0 +1,1 @@
+{"name":"fullCsvHeaders","ctype":"miscellaneous","subtype":"variable","file":"register-device/bulk/bulk-device-registration-modal.component.ts","deprecated":false,"deprecationMessage":"","type":"string[]","defaultValue":"[...csvHeaders, 'CREDENTIALS']"}

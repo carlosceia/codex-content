@@ -1,0 +1,1 @@
+{"name":"AlarmOrEvent","ctype":"miscellaneous","subtype":"typealias","rawtype":"AlarmDetails | EventDetails","file":"alarm-event-selector/alarm-event-selector.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

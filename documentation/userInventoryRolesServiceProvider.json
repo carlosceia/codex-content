@@ -1,0 +1,1 @@
+{"name":"userInventoryRolesServiceProvider","ctype":"miscellaneous","subtype":"variable","file":"upgrade/upgraded-services/user-inventory-roles.service.ts","deprecated":false,"deprecationMessage":"","type":"object","defaultValue":"{\n  provide: Ng1UserInventoryRolesService,\n  useFactory: UserInventoryRolesFactory,\n  deps: ['$injector']\n}"}

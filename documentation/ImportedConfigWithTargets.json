@@ -1,0 +1,1 @@
+{"name":"ImportedConfigWithTargets","ctype":"miscellaneous","subtype":"typealias","rawtype":"WithImportedTargets<T>","file":"widgets/import-export-config/target-import-export-types.ts","deprecated":false,"deprecationMessage":"","description":"<p>Configuration type with target objects prepared for import</p>\n","kind":183}

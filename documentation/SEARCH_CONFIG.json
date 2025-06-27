@@ -1,0 +1,1 @@
+{"name":"SEARCH_CONFIG","ctype":"miscellaneous","subtype":"variable","file":"search/search-config.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<SearchConfig>('SearchConfig')"}

@@ -1,0 +1,1 @@
+{"name":"MessagingSubscriberToDelete","ctype":"miscellaneous","subtype":"typealias","rawtype":"","file":"messaging-management/api/model/subscriberToDelete.ts","deprecated":false,"deprecationMessage":"","description":"<p>Data necessary for deleting a subscriber.</p>\n","kind":193}

@@ -1,0 +1,1 @@
+{"name":"GridConfigPart","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"filter\" | \"sort\" | \"customColumns\" | \"order\" | \"visibility\"","file":"core/data-grid/data-grid-configuration.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Defines the various types of configuration options for data grid component.</p>\n","kind":192}

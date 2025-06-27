@@ -1,0 +1,1 @@
+{"name":"HOOK_WIZARD","ctype":"miscellaneous","subtype":"variable","file":"core/wizard/wizard.model.ts","deprecated":true,"deprecationMessage":"Consider using the `hookWizard` function instead.","type":"","defaultValue":"new InjectionToken<WizardExtension[]>('HOOK_WIZARD')","rawdescription":"A hook to add wizard entries.","description":"<p>A hook to add wizard entries.</p>\n"}

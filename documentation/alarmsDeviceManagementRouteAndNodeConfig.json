@@ -1,0 +1,1 @@
+{"name":"alarmsDeviceManagementRouteAndNodeConfig","file":"alarms/devicemanagement/index.ts","ctype":"miscellaneous","subtype":"function","deprecated":false,"deprecationMessage":"","description":"","args":[],"returnType":"ModuleWithProviders<AlarmsModule>"}

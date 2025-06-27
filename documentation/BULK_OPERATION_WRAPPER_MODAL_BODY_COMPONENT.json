@@ -1,0 +1,1 @@
+{"name":"BULK_OPERATION_WRAPPER_MODAL_BODY_COMPONENT","ctype":"miscellaneous","subtype":"variable","file":"operations/bulk-operation-list-item/bulk-operation-wrapper.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken<BulkOperationDetailsModalBodyConfiguration>(\n    'BulkOperationWrapperModalBodyComponent'\n  )"}

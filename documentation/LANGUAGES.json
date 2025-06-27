@@ -1,0 +1,1 @@
+{"name":"LANGUAGES","ctype":"miscellaneous","subtype":"variable","file":"core/i18n/languages.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"new InjectionToken('Languages')"}

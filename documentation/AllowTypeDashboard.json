@@ -1,0 +1,1 @@
+{"name":"AllowTypeDashboard","ctype":"miscellaneous","subtype":"typealias","rawtype":"\"allow\" | \"disallow\" | \"allow_if_type_filled\"","file":"context-dashboard/context-dashboard.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":192}

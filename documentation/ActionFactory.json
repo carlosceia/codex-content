@@ -1,0 +1,1 @@
+{"name":"ActionFactory","ctype":"miscellaneous","subtype":"typealias","rawtype":"ExtensionFactory<Action>","file":"core/action/action.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Factory to implement if used in a hook for Multi Provider extension.</p>\n","kind":183}

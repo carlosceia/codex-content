@@ -1,0 +1,1 @@
+{"name":"CLEAN_KEYS","ctype":"miscellaneous","subtype":"variable","file":"operations/shared/operations.model.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"['creationTime', 'deviceExternalIDs', 'id', 'self']"}

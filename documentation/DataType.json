@@ -1,0 +1,1 @@
+{"name":"DataType","ctype":"miscellaneous","subtype":"variable","file":"messaging-management/messaging/namespace-list/namespace-item/namespace-item-card/namespace-item-card.component.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  publishers: 'publishers',\n  subscribers: 'subscribers',\n  topics: 'topics'\n} as const"}

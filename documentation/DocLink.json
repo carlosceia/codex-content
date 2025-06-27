@@ -1,0 +1,1 @@
+{"name":"DocLink","ctype":"miscellaneous","subtype":"typealias","rawtype":"DocLinkWithComponent | DocLinkWithLabel","file":"core/docs/docs.models.ts","deprecated":false,"deprecationMessage":"","description":"<p>A link on the right drawer.</p>\n","kind":192}

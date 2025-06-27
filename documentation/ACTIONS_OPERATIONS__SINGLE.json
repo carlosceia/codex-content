@@ -1,0 +1,1 @@
+{"name":"ACTIONS_OPERATIONS__SINGLE","ctype":"miscellaneous","subtype":"variable","file":"operations/product-experience/operations-product-experience.constants.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  SCHEDULE_AS_BULK_OPERATION: 'scheduleAsBulkOperation'\n} as const"}

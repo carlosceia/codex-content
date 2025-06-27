@@ -1,0 +1,1 @@
+{"name":"CopyDashboardDisabledReason","ctype":"miscellaneous","subtype":"variable","file":"core/dashboard/dashboard.model.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  PERMISSIONS: 'PERMISSIONS',\n  WRONG_REFERENCE: 'WRONG_REFERENCE'\n} as const"}

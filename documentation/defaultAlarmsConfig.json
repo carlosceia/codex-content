@@ -1,0 +1,1 @@
+{"name":"defaultAlarmsConfig","ctype":"miscellaneous","subtype":"variable","file":"alarms/alarms.module.ts","deprecated":false,"deprecationMessage":"","type":"AlarmsModuleConfig","defaultValue":"{\n  hybrid: true\n}"}

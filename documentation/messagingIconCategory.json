@@ -1,0 +1,1 @@
+{"name":"messagingIconCategory","ctype":"miscellaneous","subtype":"variable","file":"icon-selector/icons/messaging/index.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  label: gettext('Messaging`icons-category`'),\n  icons: messagingIcons\n} as const"}

@@ -1,0 +1,1 @@
+{"name":"dataPointsTableWidgetProviders","ctype":"miscellaneous","subtype":"variable","file":"widgets/definitions/datapoints-table/index.ts","deprecated":false,"deprecationMessage":"","type":"[]","defaultValue":"[hookWidget(dataPointsTableWidgetDefinition)]"}

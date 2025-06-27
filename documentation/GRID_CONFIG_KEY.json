@@ -1,0 +1,1 @@
+{"name":"GRID_CONFIG_KEY","ctype":"miscellaneous","subtype":"variable","file":"operations/device-selector/device-selector.component.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'device-grid-bulk'"}

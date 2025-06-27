@@ -1,0 +1,1 @@
+{"name":"REPORT_DEFAULT_NAVIGATION_NODE_PRIORITY","ctype":"miscellaneous","subtype":"variable","file":"context-dashboard/context-dashboard.model.ts","deprecated":false,"deprecationMessage":"","type":"number","defaultValue":"30"}

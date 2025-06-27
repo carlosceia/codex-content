@@ -1,0 +1,1 @@
+{"name":"CustomSeriesOptions","ctype":"miscellaneous","subtype":"typealias","rawtype":"Omit<ModifiedCustomSeriesOptions | tooltip>","file":"echart/models/chart.model.ts","deprecated":false,"deprecationMessage":"","description":"","kind":183}

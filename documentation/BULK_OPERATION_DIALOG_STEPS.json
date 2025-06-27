@@ -1,0 +1,1 @@
+{"name":"BULK_OPERATION_DIALOG_STEPS","ctype":"miscellaneous","subtype":"variable","file":"operations/product-experience/operations-product-experience.constants.ts","deprecated":false,"deprecationMessage":"","type":"","defaultValue":"{\n  SELECT_OPERATION_TYPE: 'selectOperationType'\n} as const"}

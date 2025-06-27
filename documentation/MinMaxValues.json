@@ -1,0 +1,1 @@
+{"name":"MinMaxValues","ctype":"miscellaneous","subtype":"typealias","rawtype":"literal type","file":"datapoints-export-selector/datapoints-export-selector.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Represents the min and max values for a specific timestamp.\nBoth min and max values are available only when using series API.</p>\n","kind":187}

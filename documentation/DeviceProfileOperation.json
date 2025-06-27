@@ -1,0 +1,1 @@
+{"name":"DeviceProfileOperation","childs":[{"name":"APPLY_PROFILE","deprecated":false,"deprecationMessage":"","value":"c8y_DeviceProfile"}],"ctype":"miscellaneous","subtype":"enum","deprecated":false,"deprecationMessage":"","description":"","file":"device-profile/device-profile.model.ts"}

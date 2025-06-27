@@ -1,0 +1,1 @@
+{"name":"WithImportedTargets","ctype":"miscellaneous","subtype":"typealias","rawtype":"","file":"widgets/import-export-config/target-import-export-types.ts","deprecated":false,"deprecationMessage":"","description":"<p>Transforms a type to replace arrays of objects with __target property to ImportedTargetObject[]</p>\n","kind":200}

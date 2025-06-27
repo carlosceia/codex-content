@@ -1,0 +1,1 @@
+{"name":"defaultObjectPositionValue","ctype":"miscellaneous","subtype":"variable","file":"widgets/implementations/image/image-widget.model.ts","deprecated":false,"deprecationMessage":"","type":"string","defaultValue":"'center'"}

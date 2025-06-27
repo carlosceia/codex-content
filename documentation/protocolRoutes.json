@@ -1,0 +1,1 @@
+{"name":"protocolRoutes","ctype":"miscellaneous","subtype":"variable","file":"device-protocols/device-protocols.module.ts","deprecated":false,"deprecationMessage":"","type":"Route[]","defaultValue":"fieldbusTypes.map(protocol => ({\n  path: `deviceprotocols/${protocol}/:id`,\n  component: DeviceTypeDetailComponent,\n  canDeactivate: [DeviceProtocolsGuard]\n}))"}

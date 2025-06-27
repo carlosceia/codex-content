@@ -1,0 +1,1 @@
+{"name":"Value","ctype":"miscellaneous","subtype":"typealias","rawtype":"","file":"widgets/implementations/datapoints-table/datapoints-table-widget.model.ts","deprecated":false,"deprecationMessage":"","description":"<p>Represents a value object where key is an object with min and max properties with its corresponding values.</p>\n","kind":200}
